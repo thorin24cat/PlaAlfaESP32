@@ -1,0 +1,45 @@
+name: Actualizar peligro de incendios
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 6 * * *"
+
+jobs:
+
+  actualizar:
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Instalar dependencias
+        run: |
+          pip install requests openpyxl
+
+      - name: Generar peligro.json
+        run: |
+          python generar_peligro.py
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add peligro.json
+
+          git diff --cached --quiet || git commit -m "Actualizar peligro"
+
+          git push
