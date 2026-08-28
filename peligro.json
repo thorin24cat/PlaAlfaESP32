@@ -1,5687 +1,5687 @@
 {
-  "fecha": "27/08/26",
+  "fecha": "28/08/26",
   "municipios": {
     "25001": {
       "municipio": "Abella de la Conca",
       "comarca": "Pallars Jussà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08001": {
       "municipio": "Abrera",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25002": {
       "municipio": "Àger",
       "comarca": "Noguera",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25003": {
       "municipio": "Agramunt",
       "comarca": "Urgell",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08002": {
       "municipio": "Aguilar de Segarra",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17001": {
       "municipio": "Agullana",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08014": {
       "municipio": "Aiguafreda",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43001": {
       "municipio": "Aiguamúrcia",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17002": {
       "municipio": "Aiguaviva",
       "comarca": "Gironès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25038": {
       "municipio": "Aitona",
       "comarca": "Segrià",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25005": {
       "municipio": "Alàs i Cerc",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17003": {
       "municipio": "Albanyà",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25007": {
       "municipio": "Albatàrrec",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25008": {
       "municipio": "Albesa",
       "comarca": "Noguera",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43002": {
       "municipio": "Albinyana",
       "comarca": "Baix Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17004": {
       "municipio": "Albons",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43004": {
       "municipio": "Alcanar",
       "comarca": "Montsià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25010": {
       "municipio": "Alcanó",
       "comarca": "Segrià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25011": {
       "municipio": "Alcarràs",
       "comarca": "Segrià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25012": {
       "municipio": "Alcoletge",
       "comarca": "Segrià",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43005": {
       "municipio": "Alcover",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43006": {
       "municipio": "Aldover",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08003": {
       "municipio": "Alella",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43008": {
       "municipio": "Alfara de Carles",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25013": {
       "municipio": "Alfarràs",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25014": {
       "municipio": "Alfés",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43009": {
       "municipio": "Alforja",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25015": {
       "municipio": "Algerri",
       "comarca": "Noguera",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25016": {
       "municipio": "Alguaire",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25017": {
       "municipio": "Alins",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43010": {
       "municipio": "Alió",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25019": {
       "municipio": "Almacelles",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25020": {
       "municipio": "Almatret",
       "comarca": "Segrià",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25021": {
       "municipio": "Almenar",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43011": {
       "municipio": "Almoster",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25022": {
       "municipio": "Alòs de Balaguer",
       "comarca": "Noguera",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17006": {
       "municipio": "Alp",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08004": {
       "municipio": "Alpens",
       "comarca": "Lluçanès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25023": {
       "municipio": "Alpicat",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25024": {
       "municipio": "Alt Àneu",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43012": {
       "municipio": "Altafulla",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17007": {
       "municipio": "Amer",
       "comarca": "Selva",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43014": {
       "municipio": "Amposta",
       "comarca": "Montsià",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17008": {
       "municipio": "Anglès",
       "comarca": "Selva",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25027": {
       "municipio": "Anglesola",
       "comarca": "Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25029": {
       "municipio": "Arbeca",
       "comarca": "Garrigues",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43015": {
       "municipio": "Arbolí",
       "comarca": "Baix Camp",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17009": {
       "municipio": "Arbúcies",
       "comarca": "Selva",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08006": {
       "municipio": "Arenys de Mar",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08007": {
       "municipio": "Arenys de Munt",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17010": {
       "municipio": "Argelaguer",
       "comarca": "Garrotxa",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08008": {
       "municipio": "Argençola",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08009": {
       "municipio": "Argentona",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43018": {
       "municipio": "Arnes",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25031": {
       "municipio": "Arres",
       "comarca": "Val d'Aran",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25032": {
       "municipio": "Arsèguel",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08010": {
       "municipio": "Artés",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25033": {
       "municipio": "Artesa de Lleida",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25034": {
       "municipio": "Artesa de Segre",
       "comarca": "Noguera",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43019": {
       "municipio": "Ascó",
       "comarca": "Ribera d'Ebre",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25036": {
       "municipio": "Aspa",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08011": {
       "municipio": "Avià",
       "comarca": "Berguedà",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08012": {
       "municipio": "Avinyó",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17012": {
       "municipio": "Avinyonet de Puigventós",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08013": {
       "municipio": "Avinyonet del Penedès",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08015": {
       "municipio": "Badalona",
       "comarca": "Barcelonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08904": {
       "municipio": "Badia del Vallès",
       "comarca": "Vallès Occidental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08016": {
       "municipio": "Bagà",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25039": {
       "municipio": "Baix Pallars",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25040": {
       "municipio": "Balaguer",
       "comarca": "Noguera",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08017": {
       "municipio": "Balenyà",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08018": {
       "municipio": "Balsareny",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43020": {
       "municipio": "Banyeres del Penedès",
       "comarca": "Baix Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17015": {
       "municipio": "Banyoles",
       "comarca": "Pla de l'Estany",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25041": {
       "municipio": "Barbens",
       "comarca": "Pla d'Urgell",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43021": {
       "municipio": "Barberà de la Conca",
       "comarca": "Conca de Barberà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08252": {
       "municipio": "Barberà del Vallès",
       "comarca": "Vallès Occidental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08019": {
       "municipio": "Barcelona",
       "comarca": "Barcelonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17016": {
       "municipio": "Bàscara",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25044": {
       "municipio": "Bassella",
       "comarca": "Alt Urgell",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43022": {
       "municipio": "Batea",
       "comarca": "Terra Alta",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25045": {
       "municipio": "Bausen",
       "comarca": "Val d'Aran",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08020": {
       "municipio": "Begues",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17013": {
       "municipio": "Begur",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25046": {
       "municipio": "Belianes",
       "comarca": "Urgell",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25048": {
       "municipio": "Bell-lloc d'Urgell",
       "comarca": "Pla d'Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25170": {
       "municipio": "Bellaguarda",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17018": {
       "municipio": "Bellcaire d'Empordà",
       "comarca": "Baix Empordà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25047": {
       "municipio": "Bellcaire d'Urgell",
       "comarca": "Noguera",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25049": {
       "municipio": "Bellmunt d'Urgell",
       "comarca": "Noguera",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43023": {
       "municipio": "Bellmunt del Priorat",
       "comarca": "Priorat",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08021": {
       "municipio": "Bellprat",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25050": {
       "municipio": "Bellpuig",
       "comarca": "Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43024": {
       "municipio": "Bellvei",
       "comarca": "Baix Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25051": {
       "municipio": "Bellver de Cerdanya",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25052": {
       "municipio": "Bellvís",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25053": {
       "municipio": "Benavent de Segrià",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43025": {
       "municipio": "Benifallet",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43026": {
       "municipio": "Benissanet",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08022": {
       "municipio": "Berga",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17019": {
       "municipio": "Besalú",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17020": {
       "municipio": "Bescanó",
       "comarca": "Gironès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17021": {
       "municipio": "Beuda",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08023": {
       "municipio": "Bigues i Riells del Fai",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25055": {
       "municipio": "Biosca",
       "comarca": "Solsonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17234": {
       "municipio": "Biure",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43029": {
       "municipio": "Blancafort",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17023": {
       "municipio": "Blanes",
       "comarca": "Selva",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17029": {
       "municipio": "Boadella i les Escaules",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17024": {
       "municipio": "Bolvir",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43030": {
       "municipio": "Bonastre",
       "comarca": "Baix Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17025": {
       "municipio": "Bordils",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17026": {
       "municipio": "Borrassà",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08024": {
       "municipio": "Borredà",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25059": {
       "municipio": "Bossòst",
       "comarca": "Val d'Aran",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43032": {
       "municipio": "Bot",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43033": {
       "municipio": "Botarell",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25056": {
       "municipio": "Bovera",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43034": {
       "municipio": "Bràfim",
       "comarca": "Alt Camp",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17027": {
       "municipio": "Breda",
       "comarca": "Selva",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17028": {
       "municipio": "Brunyola i Sant Martí Sapresa",
       "comarca": "Selva",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43035": {
       "municipio": "Cabacés",
       "comarca": "Priorat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25060": {
       "municipio": "Cabanabona",
       "comarca": "Noguera",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17031": {
       "municipio": "Cabanelles",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17030": {
       "municipio": "Cabanes",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25061": {
       "municipio": "Cabó",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43036": {
       "municipio": "Cabra del Camp",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08028": {
       "municipio": "Cabrera d'Anoia",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08029": {
       "municipio": "Cabrera de Mar",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08030": {
       "municipio": "Cabrils",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17032": {
       "municipio": "Cadaqués",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08031": {
       "municipio": "Calaf",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43037": {
       "municipio": "Calafell",
       "comarca": "Baix Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08034": {
       "municipio": "Calders",
       "comarca": "Moianès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08032": {
       "municipio": "Caldes d'Estrac",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17033": {
       "municipio": "Caldes de Malavella",
       "comarca": "Selva",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08033": {
       "municipio": "Caldes de Montbui",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08035": {
       "municipio": "Calella",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08037": {
       "municipio": "Calldetenes",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08038": {
       "municipio": "Callús",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08036": {
       "municipio": "Calonge de Segarra",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17034": {
       "municipio": "Calonge i Sant Antoni",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25062": {
       "municipio": "Camarasa",
       "comarca": "Noguera",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43903": {
       "municipio": "Camarles",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43038": {
       "municipio": "Cambrils",
       "comarca": "Baix Camp",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17035": {
       "municipio": "Camós",
       "comarca": "Pla de l'Estany",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17036": {
       "municipio": "Campdevànol",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17037": {
       "municipio": "Campelles",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08039": {
       "municipio": "Campins",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17038": {
       "municipio": "Campllong",
       "comarca": "Gironès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17039": {
       "municipio": "Camprodon",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25063": {
       "municipio": "Canejan",
       "comarca": "Val d'Aran",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17040": {
       "municipio": "Canet d'Adri",
       "comarca": "Gironès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08040": {
       "municipio": "Canet de Mar",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08041": {
       "municipio": "Canovelles",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08042": {
       "municipio": "Cànoves i Samalús",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17041": {
       "municipio": "Cantallops",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08043": {
       "municipio": "Canyelles",
       "comarca": "Garraf",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43039": {
       "municipio": "Capafonts",
       "comarca": "Baix Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43040": {
       "municipio": "Capçanes",
       "comarca": "Priorat",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08044": {
       "municipio": "Capellades",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17042": {
       "municipio": "Capmany",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08045": {
       "municipio": "Capolat",
       "comarca": "Berguedà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08046": {
       "municipio": "Cardedeu",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08047": {
       "municipio": "Cardona",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08048": {
       "municipio": "Carme",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43041": {
       "municipio": "Caseres",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17044": {
       "municipio": "Cassà de la Selva",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08049": {
       "municipio": "Casserres",
       "comarca": "Berguedà",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17048": {
       "municipio": "Castell d'Aro, Platja d'Aro i s'Agaró",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08057": {
       "municipio": "Castell de l'Areny",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25904": {
       "municipio": "Castell de Mur",
       "comarca": "Pallars Jussà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25064": {
       "municipio": "Castellar de la Ribera",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08052": {
       "municipio": "Castellar de n'Hug",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08050": {
       "municipio": "Castellar del Riu",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08051": {
       "municipio": "Castellar del Vallès",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08053": {
       "municipio": "Castellbell i el Vilar",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08054": {
       "municipio": "Castellbisbal",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08055": {
       "municipio": "Castellcir",
       "comarca": "Moianès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25067": {
       "municipio": "Castelldans",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08056": {
       "municipio": "Castelldefels",
       "comarca": "Baix Llobregat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08058": {
       "municipio": "Castellet i la Gornal",
       "comarca": "Alt Penedès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17046": {
       "municipio": "Castellfollit de la Roca",
       "comarca": "Garrotxa",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08060": {
       "municipio": "Castellfollit de Riubregós",
       "comarca": "Anoia",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08059": {
       "municipio": "Castellfollit del Boix",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08061": {
       "municipio": "Castellgalí",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08062": {
       "municipio": "Castellnou de Bages",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25068": {
       "municipio": "Castellnou de Seana",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17047": {
       "municipio": "Castelló d'Empúries",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25069": {
       "municipio": "Castelló de Farfanya",
       "comarca": "Noguera",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08063": {
       "municipio": "Castellolí",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25070": {
       "municipio": "Castellserà",
       "comarca": "Urgell",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08064": {
       "municipio": "Castellterçol",
       "comarca": "Moianès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43042": {
       "municipio": "Castellvell del Camp",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08065": {
       "municipio": "Castellví de la Marca",
       "comarca": "Alt Penedès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08066": {
       "municipio": "Castellví de Rosanes",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25071": {
       "municipio": "Cava",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17049": {
       "municipio": "Celrà",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08067": {
       "municipio": "Centelles",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08268": {
       "municipio": "Cercs",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08266": {
       "municipio": "Cerdanyola del Vallès",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08068": {
       "municipio": "Cervelló",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25072": {
       "municipio": "Cervera",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25073": {
       "municipio": "Cervià de les Garrigues",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17050": {
       "municipio": "Cervià de Ter",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17051": {
       "municipio": "Cistella",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25074": {
       "municipio": "Ciutadilla",
       "comarca": "Urgell",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25075": {
       "municipio": "Clariana de Cardener",
       "comarca": "Solsonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17054": {
       "municipio": "Colera",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25077": {
       "municipio": "Coll de Nargó",
       "comarca": "Alt Urgell",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08069": {
       "municipio": "Collbató",
       "comarca": "Baix Llobregat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43045": {
       "municipio": "Colldejou",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08070": {
       "municipio": "Collsuspina",
       "comarca": "Moianès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17055": {
       "municipio": "Colomers",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25161": {
       "municipio": "Conca de Dalt",
       "comarca": "Pallars Jussà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43046": {
       "municipio": "Conesa",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43047": {
       "municipio": "Constantí",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08071": {
       "municipio": "Copons",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43048": {
       "municipio": "Corbera d'Ebre",
       "comarca": "Terra Alta",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08072": {
       "municipio": "Corbera de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25078": {
       "municipio": "Corbins",
       "comarca": "Segrià",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17057": {
       "municipio": "Corçà",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08073": {
       "municipio": "Cornellà de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17056": {
       "municipio": "Cornellà del Terri",
       "comarca": "Pla de l'Estany",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43049": {
       "municipio": "Cornudella de Montsant",
       "comarca": "Priorat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43050": {
       "municipio": "Creixell",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17058": {
       "municipio": "Crespià",
       "comarca": "Pla de l'Estany",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17901": {
       "municipio": "Cruïlles, Monells i Sant Sadurní de l'Heura",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08074": {
       "municipio": "Cubelles",
       "comarca": "Garraf",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25079": {
       "municipio": "Cubells",
       "comarca": "Noguera",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43051": {
       "municipio": "Cunit",
       "comarca": "Baix Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17060": {
       "municipio": "Darnius",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17061": {
       "municipio": "Das",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43901": {
       "municipio": "Deltebre",
       "comarca": "Baix Ebre",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08075": {
       "municipio": "Dosrius",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43053": {
       "municipio": "Duesaigües",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08025": {
       "municipio": "el Bruc",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08026": {
       "municipio": "el Brull",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43043": {
       "municipio": "el Catllar",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25076": {
       "municipio": "el Cogul",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17005": {
       "municipio": "el Far d'Empordà",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43072": {
       "municipio": "el Lloar",
       "comarca": "Priorat",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08118": {
       "municipio": "el Masnou",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43082": {
       "municipio": "el Masroig",
       "comarca": "Priorat",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43083": {
       "municipio": "el Milà",
       "comarca": "Alt Camp",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43085": {
       "municipio": "el Molar",
       "comarca": "Priorat",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43090": {
       "municipio": "el Montmell",
       "comarca": "Baix Penedès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43095": {
       "municipio": "el Morell",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25158": {
       "municipio": "el Palau d'Anglesola",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08158": {
       "municipio": "el Papiol",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43104": {
       "municipio": "el Perelló",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43106": {
       "municipio": "el Pinell de Brai",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43108": {
       "municipio": "el Pla de Santa Maria",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08164": {
       "municipio": "el Pla del Penedès",
       "comarca": "Alt Penedès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25168": {
       "municipio": "el Poal",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43113": {
       "municipio": "el Pont d'Armentera",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25030": {
       "municipio": "el Pont de Bar",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25173": {
       "municipio": "el Pont de Suert",
       "comarca": "Alta Ribagorça",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08182": {
       "municipio": "el Pont de Vilomara i Rocafort",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17140": {
       "municipio": "el Port de la Selva",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08169": {
       "municipio": "el Prat de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43134": {
       "municipio": "el Rourell",
       "comarca": "Alt Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25206": {
       "municipio": "el Soleràs",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43163": {
       "municipio": "el Vendrell",
       "comarca": "Baix Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25253": {
       "municipio": "el Vilosell",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25004": {
       "municipio": "els Alamús",
       "comarca": "Segrià",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43066": {
       "municipio": "els Garidells",
       "comarca": "Alt Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43070": {
       "municipio": "els Guiamets",
       "comarca": "Priorat",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08162": {
       "municipio": "els Hostalets de Pierola",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25153": {
       "municipio": "els Omellons",
       "comarca": "Garrigues",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25154": {
       "municipio": "els Omells de na Gaia",
       "comarca": "Urgell",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43100": {
       "municipio": "els Pallaresos",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25911": {
       "municipio": "els Plans de Sió",
       "comarca": "Segarra",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08170": {
       "municipio": "els Prats de Rei",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25224": {
       "municipio": "els Torms",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25057": {
       "municipio": "Es Bòrdes",
       "comarca": "Val d'Aran",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08076": {
       "municipio": "Esparreguera",
       "comarca": "Baix Llobregat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17063": {
       "municipio": "Espinelves",
       "comarca": "Osona",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08077": {
       "municipio": "Esplugues de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17064": {
       "municipio": "Espolla",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17065": {
       "municipio": "Esponellà",
       "comarca": "Pla de l'Estany",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25082": {
       "municipio": "Espot",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25088": {
       "municipio": "Estamariu",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25085": {
       "municipio": "Estaràs",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25086": {
       "municipio": "Esterri d'Àneu",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25087": {
       "municipio": "Esterri de Cardós",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43055": {
       "municipio": "Falset",
       "comarca": "Priorat",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25089": {
       "municipio": "Farrera",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08134": {
       "municipio": "Figaró-Montmany",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08080": {
       "municipio": "Fígols",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25908": {
       "municipio": "Fígols i Alinyà",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17066": {
       "municipio": "Figueres",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43059": {
       "municipio": "Figuerola del Camp",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17067": {
       "municipio": "Flaçà",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43060": {
       "municipio": "Flix",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08082": {
       "municipio": "Fogars de la Selva",
       "comarca": "Selva",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08081": {
       "municipio": "Fogars de Montclús",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17068": {
       "municipio": "Foixà",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08083": {
       "municipio": "Folgueroles",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25093": {
       "municipio": "Fondarella",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08084": {
       "municipio": "Fonollosa",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08085": {
       "municipio": "Font-rubí",
       "comarca": "Alt Penedès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17069": {
       "municipio": "Fontanals de Cerdanya",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17070": {
       "municipio": "Fontanilles",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17071": {
       "municipio": "Fontcoberta",
       "comarca": "Pla de l'Estany",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25094": {
       "municipio": "Foradada",
       "comarca": "Noguera",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17902": {
       "municipio": "Forallac",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43061": {
       "municipio": "Forès",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17073": {
       "municipio": "Fornells de la Selva",
       "comarca": "Gironès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17074": {
       "municipio": "Fortià",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43062": {
       "municipio": "Freginals",
       "comarca": "Montsià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25097": {
       "municipio": "Fulleda",
       "comarca": "Garrigues",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08090": {
       "municipio": "Gaià",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08087": {
       "municipio": "Gallifa",
       "comarca": "Vallès Occidental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43064": {
       "municipio": "Gandesa",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43065": {
       "municipio": "Garcia",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17075": {
       "municipio": "Garrigàs",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17076": {
       "municipio": "Garrigoles",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17077": {
       "municipio": "Garriguella",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08089": {
       "municipio": "Gavà",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25098": {
       "municipio": "Gavet de la Conca",
       "comarca": "Pallars Jussà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08091": {
       "municipio": "Gelida",
       "comarca": "Alt Penedès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17078": {
       "municipio": "Ger",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25912": {
       "municipio": "Gimenells i el Pla de la Font",
       "comarca": "Segrià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43067": {
       "municipio": "Ginestar",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17079": {
       "municipio": "Girona",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08092": {
       "municipio": "Gironella",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08093": {
       "municipio": "Gisclareny",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43068": {
       "municipio": "Godall",
       "comarca": "Montsià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25099": {
       "municipio": "Golmés",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17080": {
       "municipio": "Gombrèn",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25100": {
       "municipio": "Gósol",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08095": {
       "municipio": "Granera",
       "comarca": "Moianès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08096": {
       "municipio": "Granollers",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25103": {
       "municipio": "Granyanella",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25105": {
       "municipio": "Granyena de les Garrigues",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25104": {
       "municipio": "Granyena de Segarra",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43069": {
       "municipio": "Gratallops",
       "comarca": "Priorat",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08097": {
       "municipio": "Gualba",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17081": {
       "municipio": "Gualta",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08099": {
       "municipio": "Guardiola de Berguedà",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17082": {
       "municipio": "Guils de Cerdanya",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25109": {
       "municipio": "Guimerà",
       "comarca": "Urgell",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25110": {
       "municipio": "Guissona",
       "comarca": "Segarra",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25111": {
       "municipio": "Guixers",
       "comarca": "Solsonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08100": {
       "municipio": "Gurb",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43071": {
       "municipio": "Horta de Sant Joan",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17083": {
       "municipio": "Hostalric",
       "comarca": "Selva",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08102": {
       "municipio": "Igualada",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25115": {
       "municipio": "Isona i Conca Dellà",
       "comarca": "Pallars Jussà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17084": {
       "municipio": "Isòvol",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25113": {
       "municipio": "Ivars d'Urgell",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25112": {
       "municipio": "Ivars de Noguera",
       "comarca": "Noguera",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25114": {
       "municipio": "Ivorra",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17085": {
       "municipio": "Jafre",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08103": {
       "municipio": "Jorba",
       "comarca": "Anoia",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25910": {
       "municipio": "Josa i Tuixén",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17087": {
       "municipio": "Juià",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25118": {
       "municipio": "Juncosa",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25119": {
       "municipio": "Juneda",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25006": {
       "municipio": "l'Albagés",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25009": {
       "municipio": "l'Albi",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43003": {
       "municipio": "l'Albiol",
       "comarca": "Baix Camp",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43904": {
       "municipio": "l'Aldea",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43007": {
       "municipio": "l'Aleixar",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43013": {
       "municipio": "l'Ametlla de Mar",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08005": {
       "municipio": "l'Ametlla del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43906": {
       "municipio": "l'Ampolla",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43016": {
       "municipio": "l'Arboç",
       "comarca": "Baix Penedès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43017": {
       "municipio": "l'Argentera",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17011": {
       "municipio": "l'Armentera",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17062": {
       "municipio": "l'Escala",
       "comarca": "Alt Empordà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25081": {
       "municipio": "l'Espluga Calba",
       "comarca": "Garrigues",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43054": {
       "municipio": "l'Espluga de Francolí",
       "comarca": "Conca de Barberà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08078": {
       "municipio": "l'Espunyola",
       "comarca": "Berguedà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08254": {
       "municipio": "l'Esquirol",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08079": {
       "municipio": "l'Estany",
       "comarca": "Moianès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08101": {
       "municipio": "l'Hospitalet de Llobregat",
       "comarca": "Barcelonès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25042": {
       "municipio": "la Baronia de Rialb",
       "comarca": "Noguera",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17022": {
       "municipio": "la Bisbal d'Empordà",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43027": {
       "municipio": "la Bisbal de Montsant",
       "comarca": "Priorat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43028": {
       "municipio": "la Bisbal del Penedès",
       "comarca": "Baix Penedès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43907": {
       "municipio": "la Canonja",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17189": {
       "municipio": "la Cellera de Ter",
       "comarca": "Selva",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25163": {
       "municipio": "la Coma i la Pedra",
       "comarca": "Solsonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43056": {
       "municipio": "la Fatarella",
       "comarca": "Terra Alta",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43057": {
       "municipio": "la Febró",
       "comarca": "Baix Camp",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43058": {
       "municipio": "la Figuera",
       "comarca": "Priorat",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25092": {
       "municipio": "la Floresta",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25096": {
       "municipio": "la Fuliola",
       "comarca": "Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43063": {
       "municipio": "la Galera",
       "comarca": "Montsià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08088": {
       "municipio": "la Garriga",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08094": {
       "municipio": "la Granada",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25101": {
       "municipio": "la Granadella",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25102": {
       "municipio": "la Granja d'Escarp",
       "comarca": "Segrià",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25903": {
       "municipio": "la Guingueta d'Àneu",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17086": {
       "municipio": "la Jonquera",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08104": {
       "municipio": "la Llacuna",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08105": {
       "municipio": "la Llagosta",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43080": {
       "municipio": "la Masó",
       "comarca": "Alt Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25136": {
       "municipio": "la Molsosa",
       "comarca": "Solsonès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43096": {
       "municipio": "la Morera de Montsant",
       "comarca": "Priorat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08142": {
       "municipio": "la Nou de Berguedà",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43097": {
       "municipio": "la Nou de Gaià",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43099": {
       "municipio": "la Palma d'Ebre",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08905": {
       "municipio": "la Palma de Cervelló",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17130": {
       "municipio": "la Pera",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25169": {
       "municipio": "la Pobla de Cérvoles",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08165": {
       "municipio": "la Pobla de Claramunt",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08166": {
       "municipio": "la Pobla de Lillet",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43109": {
       "municipio": "la Pobla de Mafumet",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43110": {
       "municipio": "la Pobla de Massaluca",
       "comarca": "Terra Alta",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43111": {
       "municipio": "la Pobla de Montornès",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25171": {
       "municipio": "la Pobla de Segur",
       "comarca": "Pallars Jussà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25174": {
       "municipio": "la Portella",
       "comarca": "Segrià",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08177": {
       "municipio": "la Quar",
       "comarca": "Berguedà",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43136": {
       "municipio": "la Ràpita",
       "comarca": "Montsià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43124": {
       "municipio": "la Riba",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43126": {
       "municipio": "la Riera de Gaià",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08181": {
       "municipio": "la Roca del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43144": {
       "municipio": "la Secuita",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17188": {
       "municipio": "la Selva de Mar",
       "comarca": "Alt Empordà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43145": {
       "municipio": "la Selva del Camp",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43044": {
       "municipio": "la Sénia",
       "comarca": "Montsià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25035": {
       "municipio": "la Sentiu de Sió",
       "comarca": "Noguera",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25203": {
       "municipio": "la Seu d'Urgell",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17195": {
       "municipio": "la Tallada d'Empordà",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25227": {
       "municipio": "la Torre de Cabdella",
       "comarca": "Pallars Jussà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08286": {
       "municipio": "la Torre de Claramunt",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43151": {
       "municipio": "la Torre de Fontaubella",
       "comarca": "Priorat",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43152": {
       "municipio": "la Torre de l'Espanyol",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17014": {
       "municipio": "la Vajol",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17207": {
       "municipio": "la Vall d'en Bas",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17208": {
       "municipio": "la Vall de Bianya",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25043": {
       "municipio": "la Vall de Boí",
       "comarca": "Alta Ribagorça",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25909": {
       "municipio": "la Vansa i Fórnols",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43173": {
       "municipio": "la Vilella Alta",
       "comarca": "Priorat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43174": {
       "municipio": "la Vilella Baixa",
       "comarca": "Priorat",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25121": {
       "municipio": "Les",
       "comarca": "Val d'Aran",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25037": {
       "municipio": "les Avellanes i Santa Linya",
       "comarca": "Noguera",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25058": {
       "municipio": "les Borges Blanques",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43031": {
       "municipio": "les Borges del Camp",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08027": {
       "municipio": "les Cabanyes",
       "comarca": "Alt Penedès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08086": {
       "municipio": "les Franqueses del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17096": {
       "municipio": "les Llosses",
       "comarca": "Ripollès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08116": {
       "municipio": "les Masies de Roda",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08117": {
       "municipio": "les Masies de Voltregà",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25152": {
       "municipio": "les Oluges",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43105": {
       "municipio": "les Piles de Gaià",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17133": {
       "municipio": "les Planes d'Hostoles",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17139": {
       "municipio": "les Preses",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25906": {
       "municipio": "les Valls d'Aguilar",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25239": {
       "municipio": "les Valls de Valira",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25122": {
       "municipio": "Linyola",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17088": {
       "municipio": "Lladó",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25123": {
       "municipio": "Lladorre",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25124": {
       "municipio": "Lladurs",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17089": {
       "municipio": "Llagostera",
       "comarca": "Gironès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17090": {
       "municipio": "Llambilles",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17091": {
       "municipio": "Llanars",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17092": {
       "municipio": "Llançà",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25125": {
       "municipio": "Llardecans",
       "comarca": "Segrià",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25126": {
       "municipio": "Llavorsí",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25120": {
       "municipio": "Lleida",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17093": {
       "municipio": "Llers",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25127": {
       "municipio": "Lles de Cerdanya",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08107": {
       "municipio": "Lliçà d'Amunt",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08108": {
       "municipio": "Lliçà de Vall",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25128": {
       "municipio": "Llimiana",
       "comarca": "Pallars Jussà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08106": {
       "municipio": "Llinars del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17094": {
       "municipio": "Llívia",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25129": {
       "municipio": "Llobera",
       "comarca": "Solsonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43073": {
       "municipio": "Llorac",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43074": {
       "municipio": "Llorenç del Penedès",
       "comarca": "Baix Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17095": {
       "municipio": "Lloret de Mar",
       "comarca": "Selva",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08109": {
       "municipio": "Lluçà",
       "comarca": "Lluçanès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17102": {
       "municipio": "Maçanet de Cabrenys",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17103": {
       "municipio": "Maçanet de la Selva",
       "comarca": "Selva",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17097": {
       "municipio": "Madremanya",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17098": {
       "municipio": "Maià de Montcal",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25133": {
       "municipio": "Maials",
       "comarca": "Segrià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25130": {
       "municipio": "Maldà",
       "comarca": "Urgell",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08110": {
       "municipio": "Malgrat de Mar",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08111": {
       "municipio": "Malla",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08112": {
       "municipio": "Manlleu",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08113": {
       "municipio": "Manresa",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43076": {
       "municipio": "Marçà",
       "comarca": "Priorat",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43075": {
       "municipio": "Margalef",
       "comarca": "Priorat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08242": {
       "municipio": "Marganell",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08114": {
       "municipio": "Martorell",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08115": {
       "municipio": "Martorelles",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43077": {
       "municipio": "Mas de Barberans",
       "comarca": "Montsià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17100": {
       "municipio": "Masarac i Vilarnadal",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43078": {
       "municipio": "Masdenverge",
       "comarca": "Montsià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43079": {
       "municipio": "Masllorenç",
       "comarca": "Baix Penedès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43081": {
       "municipio": "Maspujols",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08119": {
       "municipio": "Masquefa",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25131": {
       "municipio": "Massalcoreig",
       "comarca": "Segrià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17101": {
       "municipio": "Massanes",
       "comarca": "Selva",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25132": {
       "municipio": "Massoteres",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08120": {
       "municipio": "Matadepera",
       "comarca": "Vallès Occidental",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08121": {
       "municipio": "Mataró",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08122": {
       "municipio": "Mediona",
       "comarca": "Alt Penedès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25134": {
       "municipio": "Menàrguens",
       "comarca": "Noguera",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17099": {
       "municipio": "Meranges",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17105": {
       "municipio": "Mieres",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25135": {
       "municipio": "Miralcamp",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43084": {
       "municipio": "Miravet",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08138": {
       "municipio": "Moià",
       "comarca": "Moianès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08123": {
       "municipio": "Molins de Rei",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25137": {
       "municipio": "Mollerussa",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17106": {
       "municipio": "Mollet de Peralada",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08124": {
       "municipio": "Mollet del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17107": {
       "municipio": "Molló",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08128": {
       "municipio": "Monistrol de Calders",
       "comarca": "Moianès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08127": {
       "municipio": "Monistrol de Montserrat",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43091": {
       "municipio": "Mont-ral",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17110": {
       "municipio": "Mont-ras",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43092": {
       "municipio": "Mont-roig del Camp",
       "comarca": "Baix Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17109": {
       "municipio": "Montagut i Oix",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43086": {
       "municipio": "Montblanc",
       "comarca": "Conca de Barberà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43088": {
       "municipio": "Montbrió del Camp",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08125": {
       "municipio": "Montcada i Reixac",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08130": {
       "municipio": "Montclar",
       "comarca": "Berguedà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25139": {
       "municipio": "Montellà i Martinet",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08131": {
       "municipio": "Montesquiu",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25140": {
       "municipio": "Montferrer i Castellbò",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43089": {
       "municipio": "Montferri",
       "comarca": "Alt Camp",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25138": {
       "municipio": "Montgai",
       "comarca": "Noguera",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08126": {
       "municipio": "Montgat",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08132": {
       "municipio": "Montmajor",
       "comarca": "Berguedà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08133": {
       "municipio": "Montmaneu",
       "comarca": "Anoia",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08135": {
       "municipio": "Montmeló",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25142": {
       "municipio": "Montoliu de Lleida",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25141": {
       "municipio": "Montoliu de Segarra",
       "comarca": "Segarra",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25143": {
       "municipio": "Montornès de Segarra",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08136": {
       "municipio": "Montornès del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08137": {
       "municipio": "Montseny",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43093": {
       "municipio": "Móra d'Ebre",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43094": {
       "municipio": "Móra la Nova",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08129": {
       "municipio": "Muntanyola",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08139": {
       "municipio": "Mura",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25145": {
       "municipio": "Nalec",
       "comarca": "Urgell",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25025": {
       "municipio": "Naut Aran",
       "comarca": "Val d'Aran",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08140": {
       "municipio": "Navarcles",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08141": {
       "municipio": "Navàs",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17111": {
       "municipio": "Navata",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25146": {
       "municipio": "Navès",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43098": {
       "municipio": "Nulles",
       "comarca": "Alt Camp",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25148": {
       "municipio": "Odèn",
       "comarca": "Solsonès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08143": {
       "municipio": "Òdena",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17112": {
       "municipio": "Ogassa",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08145": {
       "municipio": "Olèrdola",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08146": {
       "municipio": "Olesa de Bonesvalls",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08147": {
       "municipio": "Olesa de Montserrat",
       "comarca": "Baix Llobregat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25149": {
       "municipio": "Oliana",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25150": {
       "municipio": "Oliola",
       "comarca": "Noguera",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25151": {
       "municipio": "Olius",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08148": {
       "municipio": "Olivella",
       "comarca": "Garraf",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08149": {
       "municipio": "Olost",
       "comarca": "Lluçanès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17114": {
       "municipio": "Olot",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08144": {
       "municipio": "Olvan",
       "comarca": "Berguedà",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17115": {
       "municipio": "Ordis",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25155": {
       "municipio": "Organyà",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08150": {
       "municipio": "Orís",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08151": {
       "municipio": "Oristà",
       "comarca": "Lluçanès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08152": {
       "municipio": "Orpí",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08153": {
       "municipio": "Òrrius",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25156": {
       "municipio": "Os de Balaguer",
       "comarca": "Noguera",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17116": {
       "municipio": "Osor",
       "comarca": "Selva",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25157": {
       "municipio": "Ossó de Sió",
       "comarca": "Urgell",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08154": {
       "municipio": "Pacs del Penedès",
       "comarca": "Alt Penedès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08155": {
       "municipio": "Palafolls",
       "comarca": "Maresme",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17117": {
       "municipio": "Palafrugell",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17118": {
       "municipio": "Palamós",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17121": {
       "municipio": "Palau-sator",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17120": {
       "municipio": "Palau-saverdera",
       "comarca": "Alt Empordà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08156": {
       "municipio": "Palau-solità i Plegamans",
       "comarca": "Vallès Occidental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17119": {
       "municipio": "Palau de Santa Eulàlia",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08157": {
       "municipio": "Pallejà",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17123": {
       "municipio": "Palol de Revardit",
       "comarca": "Pla de l'Estany",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17124": {
       "municipio": "Pals",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17125": {
       "municipio": "Pardines",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08159": {
       "municipio": "Parets del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17126": {
       "municipio": "Parlavà",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43101": {
       "municipio": "Passanant i Belltall",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17128": {
       "municipio": "Pau",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43102": {
       "municipio": "Paüls",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17129": {
       "municipio": "Pedret i Marzà",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25164": {
       "municipio": "Penelles",
       "comarca": "Noguera",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08160": {
       "municipio": "Perafita",
       "comarca": "Lluçanès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43103": {
       "municipio": "Perafort",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17132": {
       "municipio": "Peralada",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25165": {
       "municipio": "Peramola",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08161": {
       "municipio": "Piera",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08163": {
       "municipio": "Pineda de Mar",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25166": {
       "municipio": "Pinell de Solsonès",
       "comarca": "Solsonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25167": {
       "municipio": "Pinós",
       "comarca": "Solsonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43107": {
       "municipio": "Pira",
       "comarca": "Conca de Barberà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17134": {
       "municipio": "Planoles",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43112": {
       "municipio": "Poboleda",
       "comarca": "Priorat",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08167": {
       "municipio": "Polinyà",
       "comarca": "Vallès Occidental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17135": {
       "municipio": "Pont de Molins",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43141": {
       "municipio": "Pontils",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08168": {
       "municipio": "Pontons",
       "comarca": "Alt Penedès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17136": {
       "municipio": "Pontós",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25172": {
       "municipio": "Ponts",
       "comarca": "Noguera",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17137": {
       "municipio": "Porqueres",
       "comarca": "Pla de l'Estany",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43114": {
       "municipio": "Porrera",
       "comarca": "Priorat",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17138": {
       "municipio": "Portbou",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43115": {
       "municipio": "Pradell de la Teixeta",
       "comarca": "Priorat",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43116": {
       "municipio": "Prades",
       "comarca": "Baix Camp",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43117": {
       "municipio": "Prat de Comte",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43118": {
       "municipio": "Pratdip",
       "comarca": "Baix Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08171": {
       "municipio": "Prats de Lluçanès",
       "comarca": "Lluçanès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25175": {
       "municipio": "Prats i Sansor",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25176": {
       "municipio": "Preixana",
       "comarca": "Urgell",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25177": {
       "municipio": "Preixens",
       "comarca": "Noguera",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08230": {
       "municipio": "Premià de Dalt",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08172": {
       "municipio": "Premià de Mar",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25179": {
       "municipio": "Prullans",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08175": {
       "municipio": "Puig-reig",
       "comarca": "Berguedà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17141": {
       "municipio": "Puigcerdà",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08174": {
       "municipio": "Puigdàlber",
       "comarca": "Alt Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25180": {
       "municipio": "Puiggròs",
       "comarca": "Garrigues",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43119": {
       "municipio": "Puigpelat",
       "comarca": "Alt Camp",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25181": {
       "municipio": "Puigverd d'Agramunt",
       "comarca": "Urgell",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25182": {
       "municipio": "Puigverd de Lleida",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08176": {
       "municipio": "Pujalt",
       "comarca": "Anoia",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17142": {
       "municipio": "Quart",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17043": {
       "municipio": "Queralbs",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43120": {
       "municipio": "Querol",
       "comarca": "Alt Camp",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17143": {
       "municipio": "Rabós",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08178": {
       "municipio": "Rajadell",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43121": {
       "municipio": "Rasquera",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17144": {
       "municipio": "Regencós",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08179": {
       "municipio": "Rellinars",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43122": {
       "municipio": "Renau",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43123": {
       "municipio": "Reus",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25183": {
       "municipio": "Rialp",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43125": {
       "municipio": "Riba-roja d'Ebre",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25905": {
       "municipio": "Ribera d'Ondara",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25185": {
       "municipio": "Ribera d'Urgellet",
       "comarca": "Alt Urgell",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17145": {
       "municipio": "Ribes de Freser",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17146": {
       "municipio": "Riells i Viabrea",
       "comarca": "Selva",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25186": {
       "municipio": "Riner",
       "comarca": "Solsonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17147": {
       "municipio": "Ripoll",
       "comarca": "Ripollès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08180": {
       "municipio": "Ripollet",
       "comarca": "Vallès Occidental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25913": {
       "municipio": "Riu de Cerdanya",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17148": {
       "municipio": "Riudarenes",
       "comarca": "Selva",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17149": {
       "municipio": "Riudaura",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43127": {
       "municipio": "Riudecanyes",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43128": {
       "municipio": "Riudecols",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17150": {
       "municipio": "Riudellots de la Selva",
       "comarca": "Selva",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43129": {
       "municipio": "Riudoms",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17151": {
       "municipio": "Riumors",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43130": {
       "municipio": "Rocafort de Queralt",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43131": {
       "municipio": "Roda de Berà",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08183": {
       "municipio": "Roda de Ter",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43132": {
       "municipio": "Rodonyà",
       "comarca": "Alt Camp",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43133": {
       "municipio": "Roquetes",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17152": {
       "municipio": "Roses",
       "comarca": "Alt Empordà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25189": {
       "municipio": "Rosselló",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08184": {
       "municipio": "Rubí",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08185": {
       "municipio": "Rubió",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17153": {
       "municipio": "Rupià",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08901": {
       "municipio": "Rupit i Pruit",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08187": {
       "municipio": "Sabadell",
       "comarca": "Vallès Occidental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08188": {
       "municipio": "Sagàs",
       "comarca": "Berguedà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25190": {
       "municipio": "Salàs de Pallars",
       "comarca": "Pallars Jussà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08190": {
       "municipio": "Saldes",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17154": {
       "municipio": "Sales de Llierca",
       "comarca": "Garrotxa",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08191": {
       "municipio": "Sallent",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43135": {
       "municipio": "Salomó",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43905": {
       "municipio": "Salou",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17155": {
       "municipio": "Salt",
       "comarca": "Gironès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25191": {
       "municipio": "Sanaüja",
       "comarca": "Segarra",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08194": {
       "municipio": "Sant Adrià de Besòs",
       "comarca": "Barcelonès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08195": {
       "municipio": "Sant Agustí de Lluçanès",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08196": {
       "municipio": "Sant Andreu de la Barca",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08197": {
       "municipio": "Sant Andreu de Llavaneres",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17157": {
       "municipio": "Sant Andreu Salou",
       "comarca": "Gironès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17183": {
       "municipio": "Sant Aniol de Finestres",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08198": {
       "municipio": "Sant Antoni de Vilamajor",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08199": {
       "municipio": "Sant Bartomeu del Grau",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08200": {
       "municipio": "Sant Boi de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08201": {
       "municipio": "Sant Boi de Lluçanès",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08203": {
       "municipio": "Sant Cebrià de Vallalta",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08202": {
       "municipio": "Sant Celoni",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08204": {
       "municipio": "Sant Climent de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17158": {
       "municipio": "Sant Climent Sescebes",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08205": {
       "municipio": "Sant Cugat del Vallès",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08206": {
       "municipio": "Sant Cugat Sesgarrigues",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25196": {
       "municipio": "Sant Esteve de la Sarga",
       "comarca": "Pallars Jussà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08207": {
       "municipio": "Sant Esteve de Palautordera",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08208": {
       "municipio": "Sant Esteve Sesrovires",
       "comarca": "Baix Llobregat",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17159": {
       "municipio": "Sant Feliu de Buixalleu",
       "comarca": "Selva",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08210": {
       "municipio": "Sant Feliu de Codines",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17160": {
       "municipio": "Sant Feliu de Guíxols",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08211": {
       "municipio": "Sant Feliu de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17161": {
       "municipio": "Sant Feliu de Pallerols",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08212": {
       "municipio": "Sant Feliu Sasserra",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17162": {
       "municipio": "Sant Ferriol",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08209": {
       "municipio": "Sant Fost de Campsentelles",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08213": {
       "municipio": "Sant Fruitós de Bages",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17163": {
       "municipio": "Sant Gregori",
       "comarca": "Gironès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25192": {
       "municipio": "Sant Guim de Freixenet",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25197": {
       "municipio": "Sant Guim de la Plana",
       "comarca": "Segarra",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17164": {
       "municipio": "Sant Hilari Sacalm",
       "comarca": "Selva",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08215": {
       "municipio": "Sant Hipòlit de Voltregà",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08193": {
       "municipio": "Sant Iscle de Vallalta",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43902": {
       "municipio": "Sant Jaume d'Enveja",
       "comarca": "Montsià",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08216": {
       "municipio": "Sant Jaume de Frontanyà",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17165": {
       "municipio": "Sant Jaume de Llierca",
       "comarca": "Garrotxa",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43137": {
       "municipio": "Sant Jaume dels Domenys",
       "comarca": "Baix Penedès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17167": {
       "municipio": "Sant Joan de les Abadesses",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17168": {
       "municipio": "Sant Joan de Mollet",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08218": {
       "municipio": "Sant Joan de Vilatorrada",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08217": {
       "municipio": "Sant Joan Despí",
       "comarca": "Baix Llobregat",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17185": {
       "municipio": "Sant Joan les Fonts",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17166": {
       "municipio": "Sant Jordi Desvalls",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08903": {
       "municipio": "Sant Julià de Cerdanyola",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17169": {
       "municipio": "Sant Julià de Ramis",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08220": {
       "municipio": "Sant Julià de Vilatorta",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17903": {
       "municipio": "Sant Julià del Llor i Bonmatí",
       "comarca": "Selva",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08221": {
       "municipio": "Sant Just Desvern",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08222": {
       "municipio": "Sant Llorenç d'Hortons",
       "comarca": "Alt Penedès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17171": {
       "municipio": "Sant Llorenç de la Muga",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25193": {
       "municipio": "Sant Llorenç de Morunys",
       "comarca": "Solsonès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08223": {
       "municipio": "Sant Llorenç Savall",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08225": {
       "municipio": "Sant Martí d'Albars",
       "comarca": "Lluçanès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08224": {
       "municipio": "Sant Martí de Centelles",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17172": {
       "municipio": "Sant Martí de Llémena",
       "comarca": "Gironès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25902": {
       "municipio": "Sant Martí de Riucorb",
       "comarca": "Urgell",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08226": {
       "municipio": "Sant Martí de Tous",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08227": {
       "municipio": "Sant Martí Sarroca",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08228": {
       "municipio": "Sant Martí Sesgueioles",
       "comarca": "Anoia",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17173": {
       "municipio": "Sant Martí Vell",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08229": {
       "municipio": "Sant Mateu de Bages",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17174": {
       "municipio": "Sant Miquel de Campmajor",
       "comarca": "Pla de l'Estany",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17175": {
       "municipio": "Sant Miquel de Fluvià",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17176": {
       "municipio": "Sant Mori",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17177": {
       "municipio": "Sant Pau de Segúries",
       "comarca": "Ripollès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08231": {
       "municipio": "Sant Pere de Ribes",
       "comarca": "Garraf",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08232": {
       "municipio": "Sant Pere de Riudebitlles",
       "comarca": "Alt Penedès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08233": {
       "municipio": "Sant Pere de Torelló",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08234": {
       "municipio": "Sant Pere de Vilamajor",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17178": {
       "municipio": "Sant Pere Pescador",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08189": {
       "municipio": "Sant Pere Sallavinera",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08235": {
       "municipio": "Sant Pol de Mar",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08236": {
       "municipio": "Sant Quintí de Mediona",
       "comarca": "Alt Penedès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08237": {
       "municipio": "Sant Quirze de Besora",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08238": {
       "municipio": "Sant Quirze del Vallès",
       "comarca": "Vallès Occidental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08239": {
       "municipio": "Sant Quirze Safaja",
       "comarca": "Moianès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25194": {
       "municipio": "Sant Ramon",
       "comarca": "Segarra",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08240": {
       "municipio": "Sant Sadurní d'Anoia",
       "comarca": "Alt Penedès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08241": {
       "municipio": "Sant Sadurní d'Osormort",
       "comarca": "Osona",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08098": {
       "municipio": "Sant Salvador de Guardiola",
       "comarca": "Bages",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08262": {
       "municipio": "Sant Vicenç de Castellet",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08264": {
       "municipio": "Sant Vicenç de Montalt",
       "comarca": "Maresme",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08265": {
       "municipio": "Sant Vicenç de Torelló",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08263": {
       "municipio": "Sant Vicenç dels Horts",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43138": {
       "municipio": "Santa Bàrbara",
       "comarca": "Montsià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08243": {
       "municipio": "Santa Cecília de Voltregà",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08244": {
       "municipio": "Santa Coloma de Cervelló",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17180": {
       "municipio": "Santa Coloma de Farners",
       "comarca": "Selva",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08245": {
       "municipio": "Santa Coloma de Gramenet",
       "comarca": "Barcelonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43139": {
       "municipio": "Santa Coloma de Queralt",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17181": {
       "municipio": "Santa Cristina d'Aro",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08246": {
       "municipio": "Santa Eugènia de Berga",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08247": {
       "municipio": "Santa Eulàlia de Riuprimer",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08248": {
       "municipio": "Santa Eulàlia de Ronçana",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08249": {
       "municipio": "Santa Fe del Penedès",
       "comarca": "Alt Penedès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17182": {
       "municipio": "Santa Llogaia d'Àlguema",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08250": {
       "municipio": "Santa Margarida de Montbui",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08251": {
       "municipio": "Santa Margarida i els Monjos",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08258": {
       "municipio": "Santa Maria d'Oló",
       "comarca": "Moianès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08253": {
       "municipio": "Santa Maria de Besora",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08256": {
       "municipio": "Santa Maria de Martorelles",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08255": {
       "municipio": "Santa Maria de Merlès",
       "comarca": "Berguedà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08257": {
       "municipio": "Santa Maria de Miralles",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08259": {
       "municipio": "Santa Maria de Palautordera",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43140": {
       "municipio": "Santa Oliva",
       "comarca": "Baix Penedès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17184": {
       "municipio": "Santa Pau",
       "comarca": "Garrotxa",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08260": {
       "municipio": "Santa Perpètua de Mogoda",
       "comarca": "Vallès Occidental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08261": {
       "municipio": "Santa Susanna",
       "comarca": "Maresme",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08192": {
       "municipio": "Santpedor",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43142": {
       "municipio": "Sarral",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17186": {
       "municipio": "Sarrià de Ter",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25201": {
       "municipio": "Sarroca de Bellera",
       "comarca": "Pallars Jussà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25200": {
       "municipio": "Sarroca de Lleida",
       "comarca": "Segrià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17187": {
       "municipio": "Saus, Camallera i Llampaies",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43143": {
       "municipio": "Savallà del Comtat",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43146": {
       "municipio": "Senan",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25202": {
       "municipio": "Senterada",
       "comarca": "Pallars Jussà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08267": {
       "municipio": "Sentmenat",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17190": {
       "municipio": "Serinyà",
       "comarca": "Pla de l'Estany",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25204": {
       "municipio": "Seròs",
       "comarca": "Segrià",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17191": {
       "municipio": "Serra de Daró",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17192": {
       "municipio": "Setcases",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08269": {
       "municipio": "Seva",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25205": {
       "municipio": "Sidamon",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17193": {
       "municipio": "Sils",
       "comarca": "Selva",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08270": {
       "municipio": "Sitges",
       "comarca": "Garraf",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17052": {
       "municipio": "Siurana",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08271": {
       "municipio": "Sobremunt",
       "comarca": "Lluçanès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43147": {
       "municipio": "Solivella",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25207": {
       "municipio": "Solsona",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08272": {
       "municipio": "Sora",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25208": {
       "municipio": "Soriguera",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25209": {
       "municipio": "Sort",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25210": {
       "municipio": "Soses",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08273": {
       "municipio": "Subirats",
       "comarca": "Alt Penedès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25211": {
       "municipio": "Sudanell",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25212": {
       "municipio": "Sunyer",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08274": {
       "municipio": "Súria",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17194": {
       "municipio": "Susqueda",
       "comarca": "Selva",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08276": {
       "municipio": "Tagamanent",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08277": {
       "municipio": "Talamanca",
       "comarca": "Bages",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25215": {
       "municipio": "Talarn",
       "comarca": "Pallars Jussà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25216": {
       "municipio": "Talavera",
       "comarca": "Segarra",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08278": {
       "municipio": "Taradell",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43148": {
       "municipio": "Tarragona",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25217": {
       "municipio": "Tàrrega",
       "comarca": "Urgell",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25218": {
       "municipio": "Tarrés",
       "comarca": "Garrigues",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25219": {
       "municipio": "Tarroja de Segarra",
       "comarca": "Segarra",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08275": {
       "municipio": "Tavèrnoles",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08280": {
       "municipio": "Tavertet",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08281": {
       "municipio": "Teià",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25220": {
       "municipio": "Térmens",
       "comarca": "Noguera",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17196": {
       "municipio": "Terrades",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08279": {
       "municipio": "Terrassa",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08282": {
       "municipio": "Tiana",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25221": {
       "municipio": "Tírvia",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25222": {
       "municipio": "Tiurana",
       "comarca": "Noguera",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43149": {
       "municipio": "Tivenys",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43150": {
       "municipio": "Tivissa",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08283": {
       "municipio": "Tona",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25223": {
       "municipio": "Torà",
       "comarca": "Solsonès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08284": {
       "municipio": "Tordera",
       "comarca": "Maresme",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08285": {
       "municipio": "Torelló",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25225": {
       "municipio": "Tornabous",
       "comarca": "Urgell",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25233": {
       "municipio": "Torre-serona",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25226": {
       "municipio": "Torrebesses",
       "comarca": "Segrià",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43153": {
       "municipio": "Torredembarra",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25228": {
       "municipio": "Torrefarrera",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25907": {
       "municipio": "Torrefeta i Florejacs",
       "comarca": "Segarra",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25230": {
       "municipio": "Torregrossa",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25231": {
       "municipio": "Torrelameu",
       "comarca": "Noguera",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08287": {
       "municipio": "Torrelavit",
       "comarca": "Alt Penedès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08288": {
       "municipio": "Torrelles de Foix",
       "comarca": "Alt Penedès",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08289": {
       "municipio": "Torrelles de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17197": {
       "municipio": "Torrent",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25232": {
       "municipio": "Torres de Segre",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17198": {
       "municipio": "Torroella de Fluvià",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17199": {
       "municipio": "Torroella de Montgrí",
       "comarca": "Baix Empordà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43154": {
       "municipio": "Torroja del Priorat",
       "comarca": "Priorat",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17200": {
       "municipio": "Tortellà",
       "comarca": "Garrotxa",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43155": {
       "municipio": "Tortosa",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17201": {
       "municipio": "Toses",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17202": {
       "municipio": "Tossa de Mar",
       "comarca": "Selva",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25234": {
       "municipio": "Tremp",
       "comarca": "Pallars Jussà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17204": {
       "municipio": "Ullà",
       "comarca": "Baix Empordà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08290": {
       "municipio": "Ullastrell",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17205": {
       "municipio": "Ullastret",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43156": {
       "municipio": "Ulldecona",
       "comarca": "Montsià",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43157": {
       "municipio": "Ulldemolins",
       "comarca": "Priorat",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17203": {
       "municipio": "Ultramort",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17206": {
       "municipio": "Urús",
       "comarca": "Cerdanya",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08291": {
       "municipio": "Vacarisses",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17209": {
       "municipio": "Vall-llobrega",
       "comarca": "Baix Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25901": {
       "municipio": "Vall de Cardós",
       "comarca": "Pallars Sobirà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08292": {
       "municipio": "Vallbona d'Anoia",
       "comarca": "Anoia",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25238": {
       "municipio": "Vallbona de les Monges",
       "comarca": "Urgell",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08293": {
       "municipio": "Vallcebre",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43158": {
       "municipio": "Vallclara",
       "comarca": "Conca de Barberà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25240": {
       "municipio": "Vallfogona de Balaguer",
       "comarca": "Noguera",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17170": {
       "municipio": "Vallfogona de Ripollès",
       "comarca": "Ripollès",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43159": {
       "municipio": "Vallfogona de Riucorb",
       "comarca": "Conca de Barberà",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08294": {
       "municipio": "Vallgorguina",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08295": {
       "municipio": "Vallirana",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43160": {
       "municipio": "Vallmoll",
       "comarca": "Alt Camp",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "08296": {
       "municipio": "Vallromanes",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43161": {
       "municipio": "Valls",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43162": {
       "municipio": "Vandellòs i l'Hospitalet de l'Infant",
       "comarca": "Baix Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08297": {
       "municipio": "Veciana",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17210": {
       "municipio": "Ventalló",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25242": {
       "municipio": "Verdú",
       "comarca": "Urgell",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17211": {
       "municipio": "Verges",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43164": {
       "municipio": "Vespella de Gaià",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08298": {
       "municipio": "Vic",
       "comarca": "Osona",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17212": {
       "municipio": "Vidrà",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17213": {
       "municipio": "Vidreres",
       "comarca": "Selva",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25243": {
       "municipio": "Vielha e Mijaran",
       "comarca": "Val d'Aran",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43170": {
       "municipio": "Vila-rodona",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17230": {
       "municipio": "Vila-sacra",
       "comarca": "Alt Empordà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25252": {
       "municipio": "Vila-sana",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43171": {
       "municipio": "Vila-seca",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43165": {
       "municipio": "Vilabella",
       "comarca": "Alt Camp",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17214": {
       "municipio": "Vilabertran",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17215": {
       "municipio": "Vilablareix",
       "comarca": "Gironès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08299": {
       "municipio": "Vilada",
       "comarca": "Berguedà",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17217": {
       "municipio": "Viladamat",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17216": {
       "municipio": "Viladasens",
       "comarca": "Gironès",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08301": {
       "municipio": "Viladecans",
       "comarca": "Baix Llobregat",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08300": {
       "municipio": "Viladecavalls",
       "comarca": "Vallès Occidental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "17218": {
       "municipio": "Vilademuls",
       "comarca": "Pla de l'Estany",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17220": {
       "municipio": "Viladrau",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17221": {
       "municipio": "Vilafant",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08305": {
       "municipio": "Vilafranca del Penedès",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25244": {
       "municipio": "Vilagrassa",
       "comarca": "Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "17223": {
       "municipio": "Vilajuïga",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43175": {
       "municipio": "Vilalba dels Arcs",
       "comarca": "Terra Alta",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08306": {
       "municipio": "Vilalba Sasserra",
       "comarca": "Vallès Oriental",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "25245": {
       "municipio": "Vilaller",
       "comarca": "Alta Ribagorça",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17224": {
       "municipio": "Vilallonga de Ter",
       "comarca": "Ripollès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43166": {
       "municipio": "Vilallonga del Camp",
       "comarca": "Tarragonès",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17225": {
       "municipio": "Vilamacolum",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17226": {
       "municipio": "Vilamalla",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17227": {
       "municipio": "Vilamaniscle",
       "comarca": "Alt Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25247": {
       "municipio": "Vilamòs",
       "comarca": "Val d'Aran",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17228": {
       "municipio": "Vilanant",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43167": {
       "municipio": "Vilanova d'Escornalbou",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25248": {
       "municipio": "Vilanova de Bellpuig",
       "comarca": "Pla d'Urgell",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "25249": {
       "municipio": "Vilanova de l'Aguda",
       "comarca": "Noguera",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "25254": {
       "municipio": "Vilanova de la Barca",
       "comarca": "Segrià",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25250": {
       "municipio": "Vilanova de Meià",
       "comarca": "Noguera",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43168": {
       "municipio": "Vilanova de Prades",
       "comarca": "Conca de Barberà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08303": {
       "municipio": "Vilanova de Sau",
       "comarca": "Osona",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25251": {
       "municipio": "Vilanova de Segrià",
       "comarca": "Segrià",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08302": {
       "municipio": "Vilanova del Camí",
       "comarca": "Anoia",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08902": {
       "municipio": "Vilanova del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08307": {
       "municipio": "Vilanova i la Geltrú",
       "comarca": "Garraf",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Moderat",
+      "fecha": "28/08/26"
     },
     "43169": {
       "municipio": "Vilaplana",
       "comarca": "Baix Camp",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08214": {
       "municipio": "Vilassar de Dalt",
       "comarca": "Maresme",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "08219": {
       "municipio": "Vilassar de Mar",
       "comarca": "Maresme",
-      "peligro": "Baix",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17222": {
       "municipio": "Vilaür",
       "comarca": "Alt Empordà",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43172": {
       "municipio": "Vilaverd",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "17233": {
       "municipio": "Vilobí d'Onyar",
       "comarca": "Selva",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "08304": {
       "municipio": "Vilobí del Penedès",
       "comarca": "Alt Penedès",
       "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "17232": {
       "municipio": "Vilopriu",
       "comarca": "Baix Empordà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "43176": {
       "municipio": "Vimbodí i Poblet",
       "comarca": "Conca de Barberà",
       "peligro": "Alt",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "25255": {
       "municipio": "Vinaixa",
       "comarca": "Garrigues",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     },
     "43177": {
       "municipio": "Vinebre",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43178": {
       "municipio": "Vinyols i els Arcs",
       "comarca": "Baix Camp",
       "peligro": "Baix",
-      "fecha": "27/08/26"
+      "fecha": "28/08/26"
     },
     "08308": {
       "municipio": "Viver i Serrateix",
       "comarca": "Berguedà",
-      "peligro": "Moderat",
-      "fecha": "27/08/26"
+      "peligro": "Alt",
+      "fecha": "28/08/26"
     },
     "43052": {
       "municipio": "Xerta",
       "comarca": "Baix Ebre",
-      "peligro": "Alt",
-      "fecha": "27/08/26"
+      "peligro": "Molt Alt",
+      "fecha": "28/08/26"
     }
   }
 }
