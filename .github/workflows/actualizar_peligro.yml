@@ -33,12 +33,16 @@ jobs:
         run: |
           python generar_peligro.py
 
+      - name: Generar archivos individuales
+        run: |
+          python generar_archivos_peligro.py
+
       - name: Guardar cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add peligro.json
+          git add peligro.json peligro/
 
           git diff --cached --quiet || git commit -m "Actualizar peligro"
 
