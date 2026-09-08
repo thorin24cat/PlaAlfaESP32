@@ -4,7 +4,21 @@ on:
   workflow_dispatch:
 
   schedule:
+    # Comprobar el peligro de HOY varias veces por la mañana.
+    # GitHub Actions usa UTC.
+    # En España peninsular:
+    # 08:30 UTC = 10:30 CEST
+    # 09:00 UTC = 11:00 CEST
+    # 09:30 UTC = 11:30 CEST
+    # 10:00 UTC = 12:00 CEST
+    # 10:30 UTC = 12:30 CEST
+    # 11:00 UTC = 13:00 CEST
     - cron: "30 8 * * *"
+    - cron: "0 9 * * *"
+    - cron: "30 9 * * *"
+    - cron: "0 10 * * *"
+    - cron: "30 10 * * *"
+    - cron: "0 11 * * *"
 
 jobs:
   actualizar:
@@ -40,5 +54,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add peligro.json peligro/
+
           git diff --cached --quiet || git commit -m "Actualizar peligro"
+
           git push
