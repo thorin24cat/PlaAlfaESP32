@@ -2,7 +2,7 @@ import json
 import requests
 
 from io import BytesIO
-from datetime import datetime
+from datetime import datetime, timezone
 
 from openpyxl import load_workbook
 
@@ -16,11 +16,31 @@ ARCHIVO_SALIDA = "peligro.json"
 
 
 def descargar_xlsx():
-
     print("Descargando XLSX oficial...")
 
+    # Añadimos una marca de tiempo para evitar recibir
+    # una copia antigua almacenada en caché.
+    marca_tiempo = int(
+        datetime.now(timezone.utc).timestamp()
+    )
+
+    url = (
+        URL_XLSX
+        + "?nocache="
+        + str(marca_tiempo)
+    )
+
+    print("URL de descarga:")
+    print(url)
+
     respuesta = requests.get(
-        URL_XLSX,
+        url,
+        headers={
+            "Cache-Control": "no-cache, no-store, must-revalidate",
+            "Pragma": "no-cache",
+            "Expires": "0",
+            "User-Agent": "Mozilla/5.0 PlaAlfaESP32"
+        },
         timeout=30
     )
 
@@ -29,8 +49,12 @@ def descargar_xlsx():
         respuesta.status_code
     )
 
-    if respuesta.status_code != 200:
+    print(
+        "Bytes recibidos:",
+        len(respuesta.content)
+    )
 
+    if respuesta.status_code != 200:
         raise RuntimeError(
             "No se ha podido descargar el XLSX"
         )
@@ -39,21 +63,18 @@ def descargar_xlsx():
 
 
 def normalizar_codigo(codigo):
-
     if codigo is None:
         return ""
 
     texto = str(codigo).strip()
 
     if texto.isdigit():
-
         texto = texto.zfill(5)
 
     return texto
 
 
 def generar_json():
-
     contenido = descargar_xlsx()
 
     libro = load_workbook(
@@ -125,7 +146,6 @@ def generar_json():
             fecha_texto = ""
 
         if fecha_texto:
-
             fecha_actualizacion = (
                 fecha_texto
             )
@@ -166,17 +186,54 @@ def generar_json():
             indent=2
         )
 
+    print()
+    print(
+        "======================================"
+    )
+    print(
+        "RESULTADO ACTUALIZACION"
+    )
+    print(
+        "======================================"
+    )
+
+    print(
+        "Fecha detectada:",
+        fecha_actualizacion
+    )
+
     print(
         "Municipios generados:",
         len(municipios)
     )
+
+    for codigo in (
+        "08148",
+        "08270",
+        "08305"
+    ):
+
+        if codigo in municipios:
+
+            datos = municipios[codigo]
+
+            print(
+                datos["municipio"],
+                "|",
+                datos["peligro"],
+                "|",
+                datos["fecha"]
+            )
 
     print(
         "Archivo creado:",
         ARCHIVO_SALIDA
     )
 
+    print(
+        "======================================"
+    )
+
 
 if __name__ == "__main__":
-
     generar_json()
