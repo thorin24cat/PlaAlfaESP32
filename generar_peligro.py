@@ -41,15 +41,8 @@ respuesta = requests.get(
     timeout=30
 )
 
-print(
-    "HTTP:",
-    respuesta.status_code
-)
-
-print(
-    "Bytes recibidos:",
-    len(respuesta.content)
-)
+print("HTTP:", respuesta.status_code)
+print("Bytes recibidos:", len(respuesta.content))
 
 if respuesta.status_code != 200:
     raise RuntimeError(
@@ -122,10 +115,8 @@ for fila in hoja.iter_rows(
 
     if isinstance(fecha, datetime):
         fecha_texto = fecha.strftime("%d/%m/%y")
-
     elif fecha is not None:
         fecha_texto = str(fecha).strip()
-
     else:
         fecha_texto = ""
 
@@ -166,10 +157,7 @@ print("======================================")
 print("RESULTADO ACTUALIZACION")
 print("======================================")
 
-print(
-    "Fecha detectada:",
-    fecha_actualizacion
-)
+print("Fecha detectada:", fecha_actualizacion)
 
 print(
     "Municipios generados:",
