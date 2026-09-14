@@ -4,15 +4,18 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Comprobar el peligro de HOY varias veces por la mañana.
-    # GitHub Actions usa UTC.
-    # En España peninsular:
-    # 08:30 UTC = 10:30 CEST
-    # 09:00 UTC = 11:00 CEST
-    # 09:30 UTC = 11:30 CEST
-    # 10:00 UTC = 12:00 CEST
-    # 10:30 UTC = 12:30 CEST
-    # 11:00 UTC = 13:00 CEST
+    # GitHub Actions utiliza UTC.
+    #
+    # España peninsular en horario de verano:
+    # 08:30 UTC = 10:30
+    # 09:00 UTC = 11:00
+    # 09:30 UTC = 11:30
+    # 10:00 UTC = 12:00
+    # 10:30 UTC = 12:30
+    # 11:00 UTC = 13:00
+    #
+    # El mapa de peligro de "Avui" se publica
+    # aproximadamente entre las 09:30 y 10:00.
     - cron: "30 8 * * *"
     - cron: "0 9 * * *"
     - cron: "30 9 * * *"
@@ -21,13 +24,16 @@ on:
     - cron: "0 11 * * *"
 
 jobs:
+
   actualizar:
+
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
+
       - name: Descargar repositorio
         uses: actions/checkout@v5
 
@@ -38,7 +44,11 @@ jobs:
 
       - name: Instalar dependencias
         run: |
-          pip install requests openpyxl
+          pip install requests openpyxl playwright
+
+      - name: Instalar navegador Chromium
+        run: |
+          playwright install --with-deps chromium
 
       - name: Generar peligro.json
         run: |
