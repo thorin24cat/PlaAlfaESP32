@@ -1,22 +1,39 @@
+# ============================================================
+# PLA ALFA ESP32
+# GENERADOR DE PELIGRO
+#
+# VERSION: 3.0.0
+#
+# Fuente del peligro:
+#   Gencat - tabla municipal AVUI
+#
+# El XLSX se utiliza únicamente para obtener:
+#   municipio -> código municipal
+#
+# ============================================================
+
 import json
 import re
 import requests
 
-from html.parser import HTMLParser
-from io import BytesIO
 from datetime import datetime, timezone
+from io import BytesIO
 
 from openpyxl import load_workbook
 
+
+VERSION = "3.0.0"
+
+
+# ============================================================
+# FUENTES
+# ============================================================
 
 URL_HTML = (
     "https://gencat.cat/medinatural/incendis/mapes/"
     "taula_muni_perill_avui.html"
 )
 
-# Se mantiene únicamente para obtener la correspondencia
-# municipio -> código oficial.
-# Los datos de peligro YA NO se obtienen del XLSX.
 URL_XLSX_CODIGOS = (
     "https://gencat.cat/medinatural/incendis/mapes/"
     "taula_muni_perill_avui.xlsx"
@@ -26,23 +43,46 @@ ARCHIVO_SALIDA = "peligro.json"
 
 
 # ============================================================
+# MUNICIPIOS DEL PROYECTO
+# ============================================================
+
+MUNICIPIOS_PROYECTO = {
+    "08148": "Olivella",
+    "08270": "Sitges",
+    "08305": "Vilafranca del Penedès"
+}
+
+
+# ============================================================
 # UTILIDADES
 # ============================================================
 
 def limpiar_texto(texto):
+
     if texto is None:
         return ""
 
     texto = str(texto)
 
-    texto = texto.replace("\xa0", " ")
-    texto = re.sub(r"\s+", " ", texto)
+    texto = texto.replace(
+        "\xa0",
+        " "
+    )
+
+    texto = re.sub(
+        r"\s+",
+        " ",
+        texto
+    )
 
     return texto.strip()
 
 
 def normalizar_nombre(nombre):
-    texto = limpiar_texto(nombre).lower()
+
+    texto = limpiar_texto(
+        nombre
+    ).lower()
 
     reemplazos = {
         "à": "a",
@@ -69,119 +109,66 @@ def normalizar_nombre(nombre):
     }
 
     for origen, destino in reemplazos.items():
-        texto = texto.replace(origen, destino)
+
+        texto = texto.replace(
+            origen,
+            destino
+        )
 
     return texto
 
 
 def normalizar_codigo(codigo):
+
     if codigo is None:
         return ""
 
-    texto = str(codigo).strip()
+    texto = str(
+        codigo
+    ).strip()
 
     if texto.isdigit():
+
         texto = texto.zfill(5)
 
     return texto
 
 
 # ============================================================
-# PARSER HTML
+# DESCARGAR
 # ============================================================
 
-class TablaHTMLParser(HTMLParser):
-
-    def __init__(self):
-        super().__init__()
-
-        self.filas = []
-
-        self.en_fila = False
-        self.en_celda = False
-
-        self.fila_actual = []
-        self.celda_actual = ""
-
-    def handle_starttag(self, tag, attrs):
-
-        tag = tag.lower()
-
-        if tag == "tr":
-
-            self.en_fila = True
-            self.fila_actual = []
-
-        elif tag in ("td", "th") and self.en_fila:
-
-            self.en_celda = True
-            self.celda_actual = ""
-
-    def handle_endtag(self, tag):
-
-        tag = tag.lower()
-
-        if tag in ("td", "th"):
-
-            if self.en_celda:
-
-                texto = limpiar_texto(
-                    self.celda_actual
-                )
-
-                self.fila_actual.append(
-                    texto
-                )
-
-                self.celda_actual = ""
-                self.en_celda = False
-
-        elif tag == "tr":
-
-            if self.en_fila:
-
-                if self.fila_actual:
-
-                    self.filas.append(
-                        self.fila_actual
-                    )
-
-                self.fila_actual = []
-                self.en_fila = False
-
-    def handle_data(self, data):
-
-        if self.en_celda:
-
-            self.celda_actual += data
-
-
-# ============================================================
-# DESCARGAR HTML OFICIAL
-# ============================================================
-
-def descargar_html():
-
-    print()
-    print("======================================")
-    print("DESCARGA HTML OFICIAL")
-    print("======================================")
+def descargar_url(url):
 
     marca_tiempo = int(
-        datetime.now(timezone.utc).timestamp()
+        datetime.now(
+            timezone.utc
+        ).timestamp()
     )
 
-    url = (
-        URL_HTML
-        + "?nocache="
+    separador = (
+        "&"
+        if "?" in url
+        else "?"
+    )
+
+    url_final = (
+        url
+        + separador
+        + "nocache="
         + str(marca_tiempo)
     )
 
-    print("URL:")
-    print(url)
+    print()
+    print(
+        "URL:"
+    )
+    print(
+        url_final
+    )
 
     respuesta = requests.get(
-        url,
+        url_final,
         headers={
             "Cache-Control":
                 "no-cache, no-store, must-revalidate",
@@ -190,7 +177,7 @@ def descargar_html():
             "User-Agent":
                 "Mozilla/5.0 PlaAlfaESP32"
         },
-        timeout=30
+        timeout=60
     )
 
     print(
@@ -206,281 +193,42 @@ def descargar_html():
     if respuesta.status_code != 200:
 
         raise RuntimeError(
-            "No se ha podido descargar "
-            "la tabla HTML oficial"
+            "HTTP "
+            + str(
+                respuesta.status_code
+            )
+            + " al descargar "
+            + url
         )
 
     return respuesta.content
 
 
 # ============================================================
-# LEER TABLA HTML
+# CODIGOS MUNICIPALES
 # ============================================================
-
-def leer_tabla_html(contenido):
-
-    parser = TablaHTMLParser()
-
-    parser.feed(
-        contenido.decode(
-            "utf-8",
-            errors="replace"
-        )
-    )
-
-    print()
-    print(
-        "Filas HTML detectadas:",
-        len(parser.filas)
-    )
-
-    if not parser.filas:
-
-        raise RuntimeError(
-            "No se han encontrado filas "
-            "en la tabla HTML"
-        )
-
-    # --------------------------------------------------------
-    # Buscar la fila de cabecera.
-    # --------------------------------------------------------
-
-    indice_cabecera = -1
-
-    for i, fila in enumerate(
-        parser.filas
-    ):
-
-        texto_fila = " ".join(
-            fila
-        ).upper()
-
-        if (
-            "MUNICIPI" in texto_fila
-            and "COMARCA" in texto_fila
-            and "PERILL" in texto_fila
-        ):
-
-            indice_cabecera = i
-            break
-
-    if indice_cabecera < 0:
-
-        raise RuntimeError(
-            "No se ha encontrado la cabecera "
-            "MUNICIPI / COMARCA / PERILL"
-        )
-
-    cabecera = parser.filas[
-        indice_cabecera
-    ]
-
-    print()
-    print(
-        "Cabecera detectada:"
-    )
-    print(
-        cabecera
-    )
-
-    # --------------------------------------------------------
-    # Detectar posiciones de columnas.
-    # --------------------------------------------------------
-
-    columnas = {}
-
-    for i, nombre in enumerate(
-        cabecera
-    ):
-
-        nombre_normalizado = (
-            limpiar_texto(nombre)
-            .upper()
-        )
-
-        if "MUNICIPI" in nombre_normalizado:
-            columnas["municipio"] = i
-
-        elif "COMARCA" in nombre_normalizado:
-            columnas["comarca"] = i
-
-        elif "PERILL" in nombre_normalizado:
-            columnas["peligro"] = i
-
-        elif "DATA" in nombre_normalizado:
-            columnas["fecha"] = i
-
-    print()
-    print(
-        "Columnas detectadas:"
-    )
-    print(
-        columnas
-    )
-
-    necesarias = (
-        "municipio",
-        "comarca",
-        "peligro"
-    )
-
-    for columna in necesarias:
-
-        if columna not in columnas:
-
-            raise RuntimeError(
-                "No se ha encontrado la columna "
-                + columna
-                + " en la tabla HTML"
-            )
-
-    # --------------------------------------------------------
-    # Convertir filas.
-    # --------------------------------------------------------
-
-    registros = []
-
-    for fila in parser.filas[
-        indice_cabecera + 1:
-    ]:
-
-        if len(fila) <= columnas["municipio"]:
-            continue
-
-        municipio = limpiar_texto(
-            fila[
-                columnas["municipio"]
-            ]
-        )
-
-        if not municipio:
-            continue
-
-        comarca = ""
-
-        if (
-            "comarca" in columnas
-            and len(fila) > columnas["comarca"]
-        ):
-
-            comarca = limpiar_texto(
-                fila[
-                    columnas["comarca"]
-                ]
-            )
-
-        peligro = ""
-
-        if (
-            "peligro" in columnas
-            and len(fila) > columnas["peligro"]
-        ):
-
-            peligro = limpiar_texto(
-                fila[
-                    columnas["peligro"]
-                ]
-            )
-
-        fecha = ""
-
-        if (
-            "fecha" in columnas
-            and len(fila) > columnas["fecha"]
-        ):
-
-            fecha = limpiar_texto(
-                fila[
-                    columnas["fecha"]
-                ]
-            )
-
-        # Evitar filas que no sean municipios.
-        if municipio.upper() in (
-            "MUNICIPI",
-            "TOTAL",
-            "TOTAL MUNICIPIS"
-        ):
-            continue
-
-        registros.append(
-            {
-                "municipio": municipio,
-                "comarca": comarca,
-                "peligro": peligro,
-                "fecha": fecha
-            }
-        )
-
-    print()
-    print(
-        "Municipios encontrados en HTML:",
-        len(registros)
-    )
-
-    return registros
-
-
-# ============================================================
-# DESCARGAR CÓDIGOS MUNICIPALES
-# ============================================================
-
-def descargar_mapa_codigos():
-
-    print()
-    print("======================================")
-    print("DESCARGA TABLA DE CÓDIGOS")
-    print("======================================")
-
-    marca_tiempo = int(
-        datetime.now(timezone.utc).timestamp()
-    )
-
-    url = (
-        URL_XLSX_CODIGOS
-        + "?nocache="
-        + str(marca_tiempo)
-    )
-
-    respuesta = requests.get(
-        url,
-        headers={
-            "Cache-Control":
-                "no-cache, no-store, must-revalidate",
-            "Pragma": "no-cache",
-            "Expires": "0",
-            "User-Agent":
-                "Mozilla/5.0 PlaAlfaESP32"
-        },
-        timeout=30
-    )
-
-    print(
-        "HTTP:",
-        respuesta.status_code
-    )
-
-    print(
-        "Bytes recibidos:",
-        len(respuesta.content)
-    )
-
-    if respuesta.status_code != 200:
-
-        raise RuntimeError(
-            "No se ha podido descargar "
-            "la tabla de códigos municipales"
-        )
-
-    return respuesta.content
-
 
 def obtener_codigos_municipios():
 
-    contenido = descargar_mapa_codigos()
+    print()
+    print(
+        "======================================"
+    )
+    print(
+        "OBTENER CODIGOS MUNICIPALES"
+    )
+    print(
+        "======================================"
+    )
+
+    contenido = descargar_url(
+        URL_XLSX_CODIGOS
+    )
 
     libro = load_workbook(
-        filename=BytesIO(contenido),
+        filename=BytesIO(
+            contenido
+        ),
         read_only=True,
         data_only=True
     )
@@ -511,49 +259,402 @@ def obtener_codigos_municipios():
             nombre
         )
 
-        if not codigo or not nombre:
+        if not codigo:
+            continue
+
+        if not nombre:
             continue
 
         codigos[
-            normalizar_nombre(nombre)
+            normalizar_nombre(
+                nombre
+            )
         ] = codigo
 
     libro.close()
 
-    print()
     print(
         "Municipios con código:",
         len(codigos)
     )
 
+    if len(codigos) < 900:
+
+        raise RuntimeError(
+            "La tabla de códigos contiene "
+            "menos de 900 municipios."
+        )
+
     return codigos
 
 
 # ============================================================
-# GENERAR JSON
+# EXTRAER DATOS DEL HTML
 # ============================================================
 
-def generar_json():
+def extraer_datos_html(contenido):
 
-    # --------------------------------------------------------
-    # 1. HTML = fuente REAL del peligro actual.
-    # --------------------------------------------------------
+    print()
+    print(
+        "======================================"
+    )
+    print(
+        "PROCESAR HTML AVUI"
+    )
+    print(
+        "======================================"
+    )
 
-    contenido_html = descargar_html()
+    texto = contenido.decode(
+        "utf-8",
+        errors="replace"
+    )
 
-    registros = leer_tabla_html(
-        contenido_html
+    print(
+        "Caracteres HTML:",
+        len(texto)
     )
 
     # --------------------------------------------------------
-    # 2. XLSX = solamente correspondencia nombre -> código.
+    # Normalizar HTML.
     # --------------------------------------------------------
 
-    codigos = obtener_codigos_municipios()
+    texto = texto.replace(
+        "\r",
+        " "
+    )
+
+    texto = texto.replace(
+        "\n",
+        " "
+    )
+
+    texto = texto.replace(
+        "\t",
+        " "
+    )
+
+    # --------------------------------------------------------
+    # Primero intentamos localizar directamente los datos
+    # como texto HTML.
+    #
+    # La página oficial utiliza:
+    #
+    # MUNICIPI | COMARCA | PERILL | DATA DEMÀ
+    # --------------------------------------------------------
+
+    patron_fila = re.compile(
+        r"""
+        (?:
+            <td[^>]*>
+            \s*
+            (?P<municipio>[^<]+)
+            \s*
+            </td>
+        )
+        \s*
+        (?:
+            <td[^>]*>
+            \s*
+            (?P<comarca>[^<]+)
+            \s*
+            </td>
+        )
+        \s*
+        (?:
+            <td[^>]*>
+            \s*
+            (?P<peligro>[^<]+)
+            \s*
+            </td>
+        )
+        \s*
+        (?:
+            <td[^>]*>
+            \s*
+            (?P<fecha>[^<]+)
+            \s*
+            </td>
+        )
+        """,
+        re.IGNORECASE |
+        re.VERBOSE
+    )
+
+    coincidencias = list(
+        patron_fila.finditer(
+            texto
+        )
+    )
+
+    print(
+        "Filas <td> encontradas:",
+        len(coincidencias)
+    )
+
+    registros = []
+
+    for coincidencia in coincidencias:
+
+        municipio = limpiar_texto(
+            coincidencia.group(
+                "municipio"
+            )
+        )
+
+        comarca = limpiar_texto(
+            coincidencia.group(
+                "comarca"
+            )
+        )
+
+        peligro = limpiar_texto(
+            coincidencia.group(
+                "peligro"
+            )
+        )
+
+        fecha = limpiar_texto(
+            coincidencia.group(
+                "fecha"
+            )
+        )
+
+        if not municipio:
+            continue
+
+        registros.append(
+            {
+                "municipio": municipio,
+                "comarca": comarca,
+                "peligro": peligro,
+                "fecha": fecha
+            }
+        )
+
+    # --------------------------------------------------------
+    # Si no hay filas <td>, la página está usando una
+    # estructura JavaScript.
+    #
+    # En ese caso buscamos los registros en el contenido
+    # JavaScript embebido.
+    # --------------------------------------------------------
+
+    if len(registros) < 900:
+
+        print()
+        print(
+            "No se han encontrado 900 filas HTML."
+        )
+
+        print(
+            "Buscando datos embebidos..."
+        )
+
+        # ----------------------------------------------------
+        # Buscar específicamente los municipios conocidos.
+        # Esto permite identificar rápidamente la estructura.
+        # ----------------------------------------------------
+
+        municipios_buscar = [
+            "Olivella",
+            "Sitges",
+            "Vilafranca del Penedès",
+            "Abella de la Conca",
+            "Abrera"
+        ]
+
+        for nombre in municipios_buscar:
+
+            posicion = texto.lower().find(
+                nombre.lower()
+            )
+
+            if posicion >= 0:
+
+                inicio = max(
+                    0,
+                    posicion - 500
+                )
+
+                final = min(
+                    len(texto),
+                    posicion + 1000
+                )
+
+                fragmento = texto[
+                    inicio:final
+                ]
+
+                print()
+                print(
+                    "Municipio localizado:",
+                    nombre
+                )
+
+                print(
+                    fragmento
+                )
+
+        # ----------------------------------------------------
+        # Buscar arrays JavaScript con cadenas.
+        # ----------------------------------------------------
+
+        patrones = [
+
+            re.compile(
+                r"""
+                \[
+                \s*
+                ["']([^"']+)["']
+                \s*,\s*
+                ["']([^"']+)["']
+                \s*,\s*
+                ["']([^"']+)["']
+                \s*,\s*
+                ["']([^"']+)["']
+                \s*
+                \]
+                """,
+                re.IGNORECASE |
+                re.VERBOSE
+            ),
+
+            re.compile(
+                r"""
+                \{
+                [^{}]{0,500}?
+                (?:municipi|municipio)
+                [^{}]{0,500}?
+                \}
+                """,
+                re.IGNORECASE |
+                re.VERBOSE
+            )
+        ]
+
+        for patron in patrones:
+
+            encontrados = list(
+                patron.finditer(
+                    texto
+                )
+            )
+
+            print(
+                "Coincidencias patrón:",
+                len(encontrados)
+            )
+
+            for coincidencia in encontrados:
+
+                grupos = (
+                    coincidencia.groups()
+                )
+
+                if len(grupos) == 4:
+
+                    municipio = limpiar_texto(
+                        grupos[0]
+                    )
+
+                    comarca = limpiar_texto(
+                        grupos[1]
+                    )
+
+                    peligro = limpiar_texto(
+                        grupos[2]
+                    )
+
+                    fecha = limpiar_texto(
+                        grupos[3]
+                    )
+
+                    if municipio:
+
+                        registros.append(
+                            {
+                                "municipio":
+                                    municipio,
+                                "comarca":
+                                    comarca,
+                                "peligro":
+                                    peligro,
+                                "fecha":
+                                    fecha
+                            }
+                        )
+
+    # --------------------------------------------------------
+    # Eliminar duplicados.
+    # --------------------------------------------------------
+
+    unicos = []
+
+    vistos = set()
+
+    for registro in registros:
+
+        clave = (
+            normalizar_nombre(
+                registro[
+                    "municipio"
+                ]
+            ),
+            registro[
+                "comarca"
+            ],
+            registro[
+                "peligro"
+            ],
+            registro[
+                "fecha"
+            ]
+        )
+
+        if clave in vistos:
+            continue
+
+        vistos.add(
+            clave
+        )
+
+        unicos.append(
+            registro
+        )
+
+    registros = unicos
+
+    print()
+    print(
+        "Registros finales:",
+        len(registros)
+    )
+
+    return registros
+
+
+# ============================================================
+# CONSTRUIR PELIGRO.JSON
+# ============================================================
+
+def construir_municipios(
+    registros,
+    codigos
+):
+
+    print()
+    print(
+        "======================================"
+    )
+    print(
+        "CONSTRUIR MUNICIPIOS"
+    )
+    print(
+        "======================================"
+    )
 
     municipios = {}
-
-    fecha_actualizacion = ""
 
     for registro in registros:
 
@@ -561,131 +662,155 @@ def generar_json():
             "municipio"
         ]
 
-        nombre_normalizado = (
+        codigo = codigos.get(
             normalizar_nombre(
                 nombre
-            )
-        )
-
-        codigo = codigos.get(
-            nombre_normalizado,
+            ),
             ""
         )
 
         if not codigo:
 
-            print(
-                "AVISO: municipio sin código:",
-                nombre
-            )
-
             continue
-
-        peligro = registro[
-            "peligro"
-        ]
-
-        comarca = registro[
-            "comarca"
-        ]
-
-        fecha = registro[
-            "fecha"
-        ]
-
-        if fecha:
-            fecha_actualizacion = fecha
 
         municipios[codigo] = {
 
-            "municipio": nombre,
+            "municipio":
+                nombre,
 
-            "comarca": comarca,
+            "comarca":
+                registro[
+                    "comarca"
+                ],
 
-            "peligro": peligro,
+            "peligro":
+                registro[
+                    "peligro"
+                ],
 
-            "fecha": fecha
+            "fecha":
+                registro[
+                    "fecha"
+                ]
         }
-
-    # --------------------------------------------------------
-    # Comprobar que tenemos los municipios que utiliza
-    # actualmente el proyecto.
-    # --------------------------------------------------------
-
-    print()
-    print(
-        "======================================"
-    )
-    print(
-        "COMPROBACION MUNICIPIOS"
-    )
-    print(
-        "======================================"
-    )
-
-    for codigo in (
-        "08148",
-        "08270",
-        "08305"
-    ):
-
-        if codigo in municipios:
-
-            datos = municipios[
-                codigo
-            ]
-
-            print(
-                datos["municipio"],
-                "|",
-                datos["peligro"],
-                "|",
-                datos["fecha"],
-                "|",
-                codigo
-            )
-
-        else:
-
-            print(
-                "ERROR: no encontrado:",
-                codigo
-            )
-
-    # --------------------------------------------------------
-    # Comprobar que no hemos perdido demasiados municipios.
-    # --------------------------------------------------------
-
-    print()
-    print(
-        "Municipios HTML:",
-        len(registros)
-    )
 
     print(
         "Municipios con código:",
         len(municipios)
     )
 
-    if len(municipios) < 900:
+    return municipios
 
-        raise RuntimeError(
-            "Se han generado menos de 900 "
-            "municipios con código. "
-            "Se detiene la actualización "
-            "para no publicar un archivo "
-            "incompleto."
+
+# ============================================================
+# COMPROBAR MUNICIPIOS
+# ============================================================
+
+def comprobar_municipios(
+    municipios
+):
+
+    print()
+    print(
+        "======================================"
+    )
+    print(
+        "COMPROBACION"
+    )
+    print(
+        "======================================"
+    )
+
+    errores = 0
+
+    for codigo, nombre_esperado in (
+        MUNICIPIOS_PROYECTO.items()
+    ):
+
+        if codigo not in municipios:
+
+            print(
+                "ERROR:",
+                codigo,
+                nombre_esperado,
+                "NO ENCONTRADO"
+            )
+
+            errores += 1
+
+            continue
+
+        datos = municipios[
+            codigo
+        ]
+
+        print(
+            codigo,
+            "|",
+            datos[
+                "municipio"
+            ],
+            "|",
+            datos[
+                "comarca"
+            ],
+            "|",
+            datos[
+                "peligro"
+            ],
+            "|",
+            datos[
+                "fecha"
+            ]
         )
 
-    # --------------------------------------------------------
-    # Guardar resultado.
-    # --------------------------------------------------------
+    if errores:
+
+        raise RuntimeError(
+            "No se han encontrado "
+            "todos los municipios "
+            "del proyecto."
+        )
+
+
+# ============================================================
+# GUARDAR
+# ============================================================
+
+def guardar_json(
+    municipios
+):
+
+    fechas = []
+
+    for datos in municipios.values():
+
+        fecha = datos.get(
+            "fecha",
+            ""
+        )
+
+        if fecha:
+
+            fechas.append(
+                fecha
+            )
+
+    fecha_actualizacion = ""
+
+    if fechas:
+
+        fecha_actualizacion = max(
+            fechas
+        )
 
     resultado = {
 
-        "fecha": fecha_actualizacion,
+        "fecha":
+            fecha_actualizacion,
 
-        "municipios": municipios
+        "municipios":
+            municipios
     }
 
     with open(
@@ -706,24 +831,19 @@ def generar_json():
         "======================================"
     )
     print(
-        "RESULTADO ACTUALIZACION"
+        "ARCHIVO GENERADO"
     )
     print(
         "======================================"
     )
 
     print(
-        "Fecha detectada:",
+        "Fecha:",
         fecha_actualizacion
     )
 
     print(
-        "Municipios HTML:",
-        len(registros)
-    )
-
-    print(
-        "Municipios generados:",
+        "Municipios:",
         len(municipios)
     )
 
@@ -740,15 +860,21 @@ def generar_json():
             ]
 
             print(
-                datos["municipio"],
+                datos[
+                    "municipio"
+                ],
                 "|",
-                datos["peligro"],
+                datos[
+                    "peligro"
+                ],
                 "|",
-                datos["fecha"]
+                datos[
+                    "fecha"
+                ]
             )
 
     print(
-        "Archivo creado:",
+        "Archivo:",
         ARCHIVO_SALIDA
     )
 
@@ -758,8 +884,96 @@ def generar_json():
 
 
 # ============================================================
-# PROGRAMA PRINCIPAL
+# PRINCIPAL
+# ============================================================
+
+def generar_json():
+
+    print()
+    print(
+        "======================================"
+    )
+    print(
+        "PLA ALFA PELIGRO v"
+        + VERSION
+    )
+    print(
+        "======================================"
+    )
+
+    # --------------------------------------------------------
+    # Códigos municipales
+    # --------------------------------------------------------
+
+    codigos = obtener_codigos_municipios()
+
+    # --------------------------------------------------------
+    # HTML AVUI
+    # --------------------------------------------------------
+
+    print()
+    print(
+        "DESCARGA HTML OFICIAL AVUI"
+    )
+
+    contenido = descargar_url(
+        URL_HTML
+    )
+
+    # --------------------------------------------------------
+    # Extraer datos
+    # --------------------------------------------------------
+
+    registros = extraer_datos_html(
+        contenido
+    )
+
+    if len(registros) < 900:
+
+        raise RuntimeError(
+            "No se han podido obtener "
+            "los 947 municipios de la tabla "
+            "oficial."
+        )
+
+    # --------------------------------------------------------
+    # Crear JSON
+    # --------------------------------------------------------
+
+    municipios = construir_municipios(
+        registros,
+        codigos
+    )
+
+    if len(municipios) < 900:
+
+        raise RuntimeError(
+            "No se han podido asociar "
+            "los códigos de al menos "
+            "900 municipios."
+        )
+
+    # --------------------------------------------------------
+    # Comprobar municipios usados
+    # --------------------------------------------------------
+
+    comprobar_municipios(
+        municipios
+    )
+
+    # --------------------------------------------------------
+    # Guardar
+    # --------------------------------------------------------
+
+    guardar_json(
+        municipios
+    )
+
+
+# ============================================================
+# INICIO
 # ============================================================
 
 if __name__ == "__main__":
+
     generar_json()
