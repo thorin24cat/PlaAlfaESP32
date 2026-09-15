@@ -2,12 +2,29 @@
 # PLA ALFA ESP32
 # GENERADOR DE PELIGRO
 #
-# VERSION: 3.0.0
+# VERSION: 4.0.0
 #
 # Fuente del peligro:
 #   Gencat - tabla municipal AVUI
 #
-# El XLSX se utiliza únicamente para obtener:
+# La página "Avui" utiliza un htmlwidget/DataTables.
+# Los datos de los 947 municipios están dentro de un bloque:
+#
+# <script type="application/json" data-for="...">
+#
+# y concretamente en:
+#
+# x -> data
+#
+# Las columnas son:
+#
+#   0 = MUNICIPI
+#   1 = COMARCA
+#   2 = PERILL
+#   3 = DATA
+#
+# El XLSX se utiliza SOLO para obtener:
+#
 #   municipio -> código municipal
 #
 # ============================================================
@@ -22,7 +39,7 @@ from io import BytesIO
 from openpyxl import load_workbook
 
 
-VERSION = "3.0.0"
+VERSION = "4.0.0"
 
 
 # ============================================================
@@ -135,7 +152,7 @@ def normalizar_codigo(codigo):
 
 
 # ============================================================
-# DESCARGAR
+# DESCARGAR URL
 # ============================================================
 
 def descargar_url(url):
@@ -205,7 +222,7 @@ def descargar_url(url):
 
 
 # ============================================================
-# CODIGOS MUNICIPALES
+# OBTENER CODIGOS MUNICIPALES
 # ============================================================
 
 def obtener_codigos_municipios():
@@ -289,17 +306,17 @@ def obtener_codigos_municipios():
 
 
 # ============================================================
-# EXTRAER DATOS DEL HTML
+# EXTRAER EL JSON EMBEBIDO EN EL HTML
 # ============================================================
 
-def extraer_datos_html(contenido):
+def extraer_json_embebido(contenido):
 
     print()
     print(
         "======================================"
     )
     print(
-        "PROCESAR HTML AVUI"
+        "EXTRAER DATOS JSON DE AVUI"
     )
     print(
         "======================================"
@@ -316,326 +333,328 @@ def extraer_datos_html(contenido):
     )
 
     # --------------------------------------------------------
-    # Normalizar HTML.
-    # --------------------------------------------------------
-
-    texto = texto.replace(
-        "\r",
-        " "
-    )
-
-    texto = texto.replace(
-        "\n",
-        " "
-    )
-
-    texto = texto.replace(
-        "\t",
-        " "
-    )
-
-    # --------------------------------------------------------
-    # Primero intentamos localizar directamente los datos
-    # como texto HTML.
+    # La página contiene:
     #
-    # La página oficial utiliza:
+    # <script type="application/json" data-for="...">
+    # { ... }
+    # </script>
     #
-    # MUNICIPI | COMARCA | PERILL | DATA DEMÀ
+    # Buscamos TODOS los bloques de este tipo.
     # --------------------------------------------------------
 
-    patron_fila = re.compile(
-        r"""
-        (?:
-            <td[^>]*>
-            \s*
-            (?P<municipio>[^<]+)
-            \s*
-            </td>
-        )
-        \s*
-        (?:
-            <td[^>]*>
-            \s*
-            (?P<comarca>[^<]+)
-            \s*
-            </td>
-        )
-        \s*
-        (?:
-            <td[^>]*>
-            \s*
-            (?P<peligro>[^<]+)
-            \s*
-            </td>
-        )
-        \s*
-        (?:
-            <td[^>]*>
-            \s*
-            (?P<fecha>[^<]+)
-            \s*
-            </td>
-        )
-        """,
+    patron = re.compile(
+        r'<script\s+'
+        r'type=["\']application/json["\']\s+'
+        r'data-for=["\'][^"\']+["\']\s*>'
+        r'(.*?)'
+        r'</script>',
         re.IGNORECASE |
-        re.VERBOSE
+        re.DOTALL
     )
 
-    coincidencias = list(
-        patron_fila.finditer(
-            texto
-        )
+    bloques = patron.findall(
+        texto
     )
 
     print(
-        "Filas <td> encontradas:",
-        len(coincidencias)
+        "Bloques JSON encontrados:",
+        len(bloques)
     )
+
+    if not bloques:
+
+        raise RuntimeError(
+            "No se ha encontrado el bloque "
+            "JSON de la tabla DataTables."
+        )
+
+    # --------------------------------------------------------
+    # Buscar el bloque que contiene:
+    #
+    # x -> data
+    #
+    # y que tenga las listas de municipios.
+    # --------------------------------------------------------
+
+    datos_tabla = None
+
+    for bloque in bloques:
+
+        bloque = bloque.strip()
+
+        if not bloque:
+            continue
+
+        try:
+
+            objeto = json.loads(
+                bloque
+            )
+
+        except json.JSONDecodeError:
+
+            continue
+
+        if not isinstance(
+            objeto,
+            dict
+        ):
+            continue
+
+        x = objeto.get(
+            "x"
+        )
+
+        if not isinstance(
+            x,
+            dict
+        ):
+            continue
+
+        data = x.get(
+            "data"
+        )
+
+        if not isinstance(
+            data,
+            list
+        ):
+            continue
+
+        if len(data) < 3:
+            continue
+
+        # ----------------------------------------------------
+        # La primera columna debe contener los municipios.
+        # ----------------------------------------------------
+
+        primera_columna = data[0]
+
+        if not isinstance(
+            primera_columna,
+            list
+        ):
+            continue
+
+        if len(
+            primera_columna
+        ) < 900:
+
+            continue
+
+        # ----------------------------------------------------
+        # Comprobar que realmente parece una lista municipal.
+        # ----------------------------------------------------
+
+        nombres = [
+            normalizar_nombre(
+                valor
+            )
+            for valor in primera_columna[:100]
+        ]
+
+        if (
+            "abella de la conca"
+            in nombres
+            or
+            "abrera"
+            in nombres
+            or
+            "olivella"
+            in [
+                normalizar_nombre(
+                    valor
+                )
+                for valor in primera_columna
+            ]
+        ):
+
+            datos_tabla = data
+            break
+
+    if datos_tabla is None:
+
+        raise RuntimeError(
+            "No se ha encontrado el bloque "
+            "de datos municipal con 947 registros."
+        )
+
+    print(
+        "Columnas encontradas:",
+        len(datos_tabla)
+    )
+
+    for i, columna in enumerate(
+        datos_tabla
+    ):
+
+        if isinstance(
+            columna,
+            list
+        ):
+
+            print(
+                "Columna",
+                i,
+                ":",
+                len(columna),
+                "registros"
+            )
+
+        else:
+
+            print(
+                "Columna",
+                i,
+                ": tipo no esperado"
+            )
+
+    return datos_tabla
+
+
+# ============================================================
+# CONVERTIR DATOS DE LA TABLA
+# ============================================================
+
+def convertir_datos_tabla(
+    datos_tabla
+):
+
+    print()
+    print(
+        "======================================"
+    )
+    print(
+        "CONVERTIR TABLA"
+    )
+    print(
+        "======================================"
+    )
+
+    if len(datos_tabla) < 3:
+
+        raise RuntimeError(
+            "La tabla no contiene las "
+            "columnas necesarias."
+        )
+
+    municipios = datos_tabla[0]
+    comarcas = datos_tabla[1]
+    peligros = datos_tabla[2]
+
+    if len(datos_tabla) >= 4:
+
+        fechas = datos_tabla[3]
+
+    else:
+
+        fechas = []
+
+    cantidad = len(
+        municipios
+    )
+
+    print(
+        "Municipios:",
+        cantidad
+    )
+
+    print(
+        "Comarcas:",
+        len(comarcas)
+    )
+
+    print(
+        "Peligros:",
+        len(peligros)
+    )
+
+    print(
+        "Fechas:",
+        len(fechas)
+    )
+
+    if cantidad < 900:
+
+        raise RuntimeError(
+            "La columna MUNICIPI contiene "
+            "menos de 900 registros."
+        )
+
+    if len(comarcas) < cantidad:
+
+        raise RuntimeError(
+            "La columna COMARCA está incompleta."
+        )
+
+    if len(peligros) < cantidad:
+
+        raise RuntimeError(
+            "La columna PERILL está incompleta."
+        )
 
     registros = []
 
-    for coincidencia in coincidencias:
+    for i in range(
+        cantidad
+    ):
 
         municipio = limpiar_texto(
-            coincidencia.group(
-                "municipio"
-            )
+            municipios[i]
         )
 
         comarca = limpiar_texto(
-            coincidencia.group(
-                "comarca"
-            )
+            comarcas[i]
         )
 
         peligro = limpiar_texto(
-            coincidencia.group(
-                "peligro"
-            )
+            peligros[i]
         )
 
-        fecha = limpiar_texto(
-            coincidencia.group(
-                "fecha"
+        fecha = ""
+
+        if i < len(fechas):
+
+            fecha = limpiar_texto(
+                fechas[i]
             )
-        )
 
         if not municipio:
             continue
 
         registros.append(
             {
-                "municipio": municipio,
-                "comarca": comarca,
-                "peligro": peligro,
-                "fecha": fecha
+                "municipio":
+                    municipio,
+
+                "comarca":
+                    comarca,
+
+                "peligro":
+                    peligro,
+
+                "fecha":
+                    fecha
             }
         )
 
-    # --------------------------------------------------------
-    # Si no hay filas <td>, la página está usando una
-    # estructura JavaScript.
-    #
-    # En ese caso buscamos los registros en el contenido
-    # JavaScript embebido.
-    # --------------------------------------------------------
+    print(
+        "Registros convertidos:",
+        len(registros)
+    )
 
     if len(registros) < 900:
 
-        print()
-        print(
-            "No se han encontrado 900 filas HTML."
+        raise RuntimeError(
+            "No se han podido convertir "
+            "al menos 900 municipios."
         )
-
-        print(
-            "Buscando datos embebidos..."
-        )
-
-        # ----------------------------------------------------
-        # Buscar específicamente los municipios conocidos.
-        # Esto permite identificar rápidamente la estructura.
-        # ----------------------------------------------------
-
-        municipios_buscar = [
-            "Olivella",
-            "Sitges",
-            "Vilafranca del Penedès",
-            "Abella de la Conca",
-            "Abrera"
-        ]
-
-        for nombre in municipios_buscar:
-
-            posicion = texto.lower().find(
-                nombre.lower()
-            )
-
-            if posicion >= 0:
-
-                inicio = max(
-                    0,
-                    posicion - 500
-                )
-
-                final = min(
-                    len(texto),
-                    posicion + 1000
-                )
-
-                fragmento = texto[
-                    inicio:final
-                ]
-
-                print()
-                print(
-                    "Municipio localizado:",
-                    nombre
-                )
-
-                print(
-                    fragmento
-                )
-
-        # ----------------------------------------------------
-        # Buscar arrays JavaScript con cadenas.
-        # ----------------------------------------------------
-
-        patrones = [
-
-            re.compile(
-                r"""
-                \[
-                \s*
-                ["']([^"']+)["']
-                \s*,\s*
-                ["']([^"']+)["']
-                \s*,\s*
-                ["']([^"']+)["']
-                \s*,\s*
-                ["']([^"']+)["']
-                \s*
-                \]
-                """,
-                re.IGNORECASE |
-                re.VERBOSE
-            ),
-
-            re.compile(
-                r"""
-                \{
-                [^{}]{0,500}?
-                (?:municipi|municipio)
-                [^{}]{0,500}?
-                \}
-                """,
-                re.IGNORECASE |
-                re.VERBOSE
-            )
-        ]
-
-        for patron in patrones:
-
-            encontrados = list(
-                patron.finditer(
-                    texto
-                )
-            )
-
-            print(
-                "Coincidencias patrón:",
-                len(encontrados)
-            )
-
-            for coincidencia in encontrados:
-
-                grupos = (
-                    coincidencia.groups()
-                )
-
-                if len(grupos) == 4:
-
-                    municipio = limpiar_texto(
-                        grupos[0]
-                    )
-
-                    comarca = limpiar_texto(
-                        grupos[1]
-                    )
-
-                    peligro = limpiar_texto(
-                        grupos[2]
-                    )
-
-                    fecha = limpiar_texto(
-                        grupos[3]
-                    )
-
-                    if municipio:
-
-                        registros.append(
-                            {
-                                "municipio":
-                                    municipio,
-                                "comarca":
-                                    comarca,
-                                "peligro":
-                                    peligro,
-                                "fecha":
-                                    fecha
-                            }
-                        )
-
-    # --------------------------------------------------------
-    # Eliminar duplicados.
-    # --------------------------------------------------------
-
-    unicos = []
-
-    vistos = set()
-
-    for registro in registros:
-
-        clave = (
-            normalizar_nombre(
-                registro[
-                    "municipio"
-                ]
-            ),
-            registro[
-                "comarca"
-            ],
-            registro[
-                "peligro"
-            ],
-            registro[
-                "fecha"
-            ]
-        )
-
-        if clave in vistos:
-            continue
-
-        vistos.add(
-            clave
-        )
-
-        unicos.append(
-            registro
-        )
-
-    registros = unicos
-
-    print()
-    print(
-        "Registros finales:",
-        len(registros)
-    )
 
     return registros
 
 
 # ============================================================
-# CONSTRUIR PELIGRO.JSON
+# CREAR PELIGRO.JSON
 # ============================================================
 
 def construir_municipios(
@@ -648,7 +667,7 @@ def construir_municipios(
         "======================================"
     )
     print(
-        "CONSTRUIR MUNICIPIOS"
+        "ASIGNAR CODIGOS MUNICIPALES"
     )
     print(
         "======================================"
@@ -656,20 +675,30 @@ def construir_municipios(
 
     municipios = {}
 
+    sin_codigo = []
+
     for registro in registros:
 
         nombre = registro[
             "municipio"
         ]
 
-        codigo = codigos.get(
+        nombre_normalizado = (
             normalizar_nombre(
                 nombre
-            ),
+            )
+        )
+
+        codigo = codigos.get(
+            nombre_normalizado,
             ""
         )
 
         if not codigo:
+
+            sin_codigo.append(
+                nombre
+            )
 
             continue
 
@@ -699,11 +728,37 @@ def construir_municipios(
         len(municipios)
     )
 
+    print(
+        "Municipios sin código:",
+        len(sin_codigo)
+    )
+
+    if sin_codigo:
+
+        print()
+        print(
+            "Primeros municipios sin código:"
+        )
+
+        for nombre in sin_codigo[:20]:
+
+            print(
+                " -",
+                nombre
+            )
+
+    if len(municipios) < 900:
+
+        raise RuntimeError(
+            "Se han podido asociar códigos "
+            "a menos de 900 municipios."
+        )
+
     return municipios
 
 
 # ============================================================
-# COMPROBAR MUNICIPIOS
+# COMPROBAR LOS TRES MUNICIPIOS
 # ============================================================
 
 def comprobar_municipios(
@@ -715,13 +770,11 @@ def comprobar_municipios(
         "======================================"
     )
     print(
-        "COMPROBACION"
+        "COMPROBACION MUNICIPIOS DEL PROYECTO"
     )
     print(
         "======================================"
     )
-
-    errores = 0
 
     for codigo, nombre_esperado in (
         MUNICIPIOS_PROYECTO.items()
@@ -729,16 +782,13 @@ def comprobar_municipios(
 
         if codigo not in municipios:
 
-            print(
-                "ERROR:",
-                codigo,
-                nombre_esperado,
-                "NO ENCONTRADO"
+            raise RuntimeError(
+                "No se ha encontrado "
+                + nombre_esperado
+                + " ("
+                + codigo
+                + ")"
             )
-
-            errores += 1
-
-            continue
 
         datos = municipios[
             codigo
@@ -764,17 +814,9 @@ def comprobar_municipios(
             ]
         )
 
-    if errores:
-
-        raise RuntimeError(
-            "No se han encontrado "
-            "todos los municipios "
-            "del proyecto."
-        )
-
 
 # ============================================================
-# GUARDAR
+# GUARDAR JSON
 # ============================================================
 
 def guardar_json(
@@ -785,9 +827,11 @@ def guardar_json(
 
     for datos in municipios.values():
 
-        fecha = datos.get(
-            "fecha",
-            ""
+        fecha = limpiar_texto(
+            datos.get(
+                "fecha",
+                ""
+            )
         )
 
         if fecha:
@@ -902,18 +946,24 @@ def generar_json():
     )
 
     # --------------------------------------------------------
-    # Códigos municipales
+    # 1. Obtener códigos municipales.
     # --------------------------------------------------------
 
     codigos = obtener_codigos_municipios()
 
     # --------------------------------------------------------
-    # HTML AVUI
+    # 2. Descargar página AVUI.
     # --------------------------------------------------------
 
     print()
     print(
+        "======================================"
+    )
+    print(
         "DESCARGA HTML OFICIAL AVUI"
+    )
+    print(
+        "======================================"
     )
 
     contenido = descargar_url(
@@ -921,23 +971,23 @@ def generar_json():
     )
 
     # --------------------------------------------------------
-    # Extraer datos
+    # 3. Extraer JSON que contiene los 947 municipios.
     # --------------------------------------------------------
 
-    registros = extraer_datos_html(
+    datos_tabla = extraer_json_embebido(
         contenido
     )
 
-    if len(registros) < 900:
+    # --------------------------------------------------------
+    # 4. Convertir columnas en registros.
+    # --------------------------------------------------------
 
-        raise RuntimeError(
-            "No se han podido obtener "
-            "los 947 municipios de la tabla "
-            "oficial."
-        )
+    registros = convertir_datos_tabla(
+        datos_tabla
+    )
 
     # --------------------------------------------------------
-    # Crear JSON
+    # 5. Asignar códigos.
     # --------------------------------------------------------
 
     municipios = construir_municipios(
@@ -945,16 +995,8 @@ def generar_json():
         codigos
     )
 
-    if len(municipios) < 900:
-
-        raise RuntimeError(
-            "No se han podido asociar "
-            "los códigos de al menos "
-            "900 municipios."
-        )
-
     # --------------------------------------------------------
-    # Comprobar municipios usados
+    # 6. Comprobar Olivella, Sitges y Vilafranca.
     # --------------------------------------------------------
 
     comprobar_municipios(
@@ -962,7 +1004,7 @@ def generar_json():
     )
 
     # --------------------------------------------------------
-    # Guardar
+    # 7. Guardar peligro.json.
     # --------------------------------------------------------
 
     guardar_json(
