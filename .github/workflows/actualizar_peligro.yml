@@ -1,70 +1,78 @@
 name: Actualizar peligro de incendios
 
 on:
-  workflow_dispatch:
+workflow_dispatch:
 
-  schedule:
-    # GitHub Actions utiliza UTC.
-    #
-    # España peninsular en horario de verano:
-    # 08:30 UTC = 10:30
-    # 09:00 UTC = 11:00
-    # 09:30 UTC = 11:30
-    # 10:00 UTC = 12:00
-    # 10:30 UTC = 12:30
-    # 11:00 UTC = 13:00
-    #
-    # El mapa de peligro de "Avui" se publica
-    # aproximadamente entre las 09:30 y 10:00.
-    - cron: "30 8 * * *"
-    - cron: "0 9 * * *"
-    - cron: "30 9 * * *"
-    - cron: "0 10 * * *"
-    - cron: "30 10 * * *"
-    - cron: "0 11 * * *"
+schedule:
+# GitHub Actions utiliza UTC.
+#
+# España peninsular en verano:
+# 08:30 UTC = 10:30
+# 09:00 UTC = 11:00
+# 09:30 UTC = 11:30
+#
+# Gencat publica el peligro de "Avui"
+# aproximadamente entre las 09:30 y 10:00.
+- cron: "30 8 * * *"
+- cron: "0 9 * * *"
+- cron: "30 9 * * *"
 
 jobs:
 
-  actualizar:
+actualizar:
 
-    runs-on: ubuntu-latest
+```
+runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
+permissions:
+  contents: write
 
-    steps:
+steps:
 
-      - name: Descargar repositorio
-        uses: actions/checkout@v5
+  - name: Descargar repositorio
+    uses: actions/checkout@v5
 
-      - name: Preparar Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.x"
+  - name: Comprobar hora de ejecución
+    run: |
+      echo "Hora UTC:"
+      date -u
 
-      - name: Instalar dependencias
-        run: |
-          pip install requests openpyxl playwright
+      echo "Hora España:"
+      TZ=Europe/Madrid date
 
-      - name: Instalar navegador Chromium
-        run: |
-          playwright install --with-deps chromium
+  - name: Preparar Python
+    uses: actions/setup-python@v6
+    with:
+      python-version: "3.x"
 
-      - name: Generar peligro.json
-        run: |
-          python generar_peligro.py
+  - name: Instalar dependencias
+    run: |
+      pip install requests openpyxl playwright
 
-      - name: Generar archivos individuales
-        run: |
-          python generar_archivos_peligro.py
+  - name: Instalar navegador Chromium
+    run: |
+      playwright install --with-deps chromium
 
-      - name: Guardar cambios
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+  - name: Generar peligro.json
+    run: |
+      python generar_peligro.py
 
-          git add peligro.json peligro/
+  - name: Generar archivos individuales
+    run: |
+      python generar_archivos_peligro.py
 
-          git diff --cached --quiet || git commit -m "Actualizar peligro"
+  - name: Guardar cambios
+    run: |
+      git config user.name "github-actions[bot]"
+      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git push
+      git add peligro.json peligro/
+
+      if git diff --cached --quiet; then
+        echo "No hay cambios."
+        exit 0
+      fi
+
+      git commit -m "Actualizar peligro"
+      git push
+```
