@@ -2,43 +2,22 @@ name: Actualizar peligro de incendios
 
 on:
 workflow_dispatch:
-
 schedule:
-# GitHub Actions utiliza UTC.
-#
-# España peninsular en verano:
-# 08:30 UTC = 10:30
-# 09:00 UTC = 11:00
-# 09:30 UTC = 11:30
-#
-# Gencat publica el peligro de "Avui"
-# aproximadamente entre las 09:30 y 10:00.
 - cron: "30 8 * * *"
 - cron: "0 9 * * *"
 - cron: "30 9 * * *"
 
 jobs:
-
 actualizar:
-
-```
 runs-on: ubuntu-latest
 
+```
 permissions:
   contents: write
 
 steps:
-
   - name: Descargar repositorio
     uses: actions/checkout@v5
-
-  - name: Comprobar hora de ejecución
-    run: |
-      echo "Hora UTC:"
-      date -u
-
-      echo "Hora España:"
-      TZ=Europe/Madrid date
 
   - name: Preparar Python
     uses: actions/setup-python@v6
@@ -70,9 +49,8 @@ steps:
 
       if git diff --cached --quiet; then
         echo "No hay cambios."
-        exit 0
+      else
+        git commit -m "Actualizar peligro"
+        git push
       fi
-
-      git commit -m "Actualizar peligro"
-      git push
 ```
