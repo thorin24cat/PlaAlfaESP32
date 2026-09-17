@@ -1,6 +1,6 @@
 name: Actualizar peligro de incendios
 
-on:
+"on":
 workflow_dispatch:
 schedule:
 - cron: "30 8 * * *"
