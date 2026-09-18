@@ -3,12 +3,9 @@ name: Actualizar peligro de incendios
 on:
 workflow_dispatch:
 schedule:
-- cron: '30 10 * * *'
-timezone: 'Europe/Madrid'
-- cron: '0 11 * * *'
-timezone: 'Europe/Madrid'
-- cron: '30 11 * * *'
-timezone: 'Europe/Madrid'
+- cron: '17 8 * * *'
+- cron: '37 8 * * *'
+- cron: '57 8 * * *'
 
 jobs:
 actualizar:
