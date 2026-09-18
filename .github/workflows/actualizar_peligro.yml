@@ -10,11 +10,10 @@ schedule:
 jobs:
 actualizar:
 runs-on: ubuntu-latest
+permissions:
+contents: write
 
 ```
-permissions:
-  contents: write
-
 steps:
   - name: Descargar repositorio
     uses: actions/checkout@v4
