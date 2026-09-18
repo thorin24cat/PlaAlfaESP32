@@ -13,7 +13,6 @@ runs-on: ubuntu-latest
 permissions:
 contents: write
 
-```
 steps:
   - name: Descargar repositorio
     uses: actions/checkout@v4
@@ -39,4 +38,3 @@ steps:
       git add peligro.json peligro/
       git diff --cached --quiet || git commit -m 'Actualizar peligro'
       git push
-```
