@@ -1,40 +1,53 @@
 name: Actualizar peligro de incendios
 
-"on":
-  workflow_dispatch:
-  schedule:
-    - cron: '17 8 * * *'
-    - cron: '37 8 * * *'
-    - cron: '57 8 * * *'
+on:
+workflow_dispatch:
+schedule:
+- cron: '17 8 * * *'
+- cron: '37 8 * * *'
+- cron: '57 8 * * *'
 
 jobs:
-  actualizar:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+actualizar:
+runs-on: ubuntu-latest
+permissions:
+contents: write
 
-    steps:
-      - name: Descargar repositorio
-        uses: actions/checkout@v4
+steps:
+  - name: Comprobar horario
+    run: |
+      HORA=$(TZ=Europe/Madrid date +%H)
+      MINUTO=$(TZ=Europe/Madrid date +%M)
 
-      - name: Preparar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+      echo "Hora Madrid: $HORA:$MINUTO"
 
-      - name: Instalar dependencias
-        run: pip install requests openpyxl
+      if [ "$HORA" -ge 13 ]; then
+        echo "Fuera del horario permitido."
+        echo "No se actualizará peligro.json."
+        exit 0
+      fi
 
-      - name: Generar peligro.json
-        run: python generar_peligro.py
+  - name: Descargar repositorio
+    uses: actions/checkout@v4
 
-      - name: Generar archivos individuales
-        run: python generar_archivos_peligro.py
+  - name: Preparar Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: '3.x'
 
-      - name: Guardar cambios
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add peligro.json peligro/
-          git diff --cached --quiet || git commit -m 'Actualizar peligro'
-          git push
+  - name: Instalar dependencias
+    run: pip install requests openpyxl
+
+  - name: Generar peligro.json
+    run: python generar_peligro.py
+
+  - name: Generar archivos individuales
+    run: python generar_archivos_peligro.py
+
+  - name: Guardar cambios
+    run: |
+      git config user.name 'github-actions[bot]'
+      git config user.email '41898282+users.noreply.github.com'
+      git add peligro.json peligro/
+      git diff --cached --quiet || git commit -m 'Actualizar peligro'
+      git push
