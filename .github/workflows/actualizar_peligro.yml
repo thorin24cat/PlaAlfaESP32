@@ -4,46 +4,21 @@ on:
 workflow_dispatch:
 
 schedule:
-# Comprobaciones durante la mañana.
-# Hora de España peninsular.
+- cron: "30 8 * * *"
+- cron: "0 9 * * *"
+- cron: "30 9 * * *"
+- cron: "0 10 * * *"
 - cron: "30 10 * * *"
-timezone: "Europe/Madrid"
-
-```
 - cron: "0 11 * * *"
-  timezone: "Europe/Madrid"
-
-- cron: "30 11 * * *"
-  timezone: "Europe/Madrid"
-
-- cron: "0 12 * * *"
-  timezone: "Europe/Madrid"
-
-- cron: "30 12 * * *"
-  timezone: "Europe/Madrid"
-
-- cron: "0 13 * * *"
-  timezone: "Europe/Madrid"
-```
 
 jobs:
-
 actualizar:
-
-```
-# Las ejecuciones automáticas solo se permiten
-# durante las horas programadas.
-#
-# workflow_dispatch siempre se permite manualmente.
-if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' }}
-
 runs-on: ubuntu-latest
 
 permissions:
   contents: write
 
 steps:
-
   - name: Descargar repositorio
     uses: actions/checkout@v6
 
@@ -74,4 +49,3 @@ steps:
       git diff --cached --quiet || git commit -m "Actualizar peligro"
 
       git push
-```
