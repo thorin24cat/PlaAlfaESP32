@@ -1,54 +1,77 @@
 name: Actualizar peligro de incendios
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '17 8 * * *'
-    - cron: '37 8 * * *'
-    - cron: '57 8 * * *'
+workflow_dispatch:
+
+schedule:
+# Comprobaciones durante la mañana.
+# Hora de España peninsular.
+- cron: "30 10 * * *"
+timezone: "Europe/Madrid"
+
+```
+- cron: "0 11 * * *"
+  timezone: "Europe/Madrid"
+
+- cron: "30 11 * * *"
+  timezone: "Europe/Madrid"
+
+- cron: "0 12 * * *"
+  timezone: "Europe/Madrid"
+
+- cron: "30 12 * * *"
+  timezone: "Europe/Madrid"
+
+- cron: "0 13 * * *"
+  timezone: "Europe/Madrid"
+```
 
 jobs:
-  actualizar:
-    runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
+actualizar:
 
-    steps:
-      - name: Comprobar horario
-        run: |
-          HORA=$(TZ=Europe/Madrid date +%H)
-          MINUTO=$(TZ=Europe/Madrid date +%M)
+```
+# Las ejecuciones automáticas solo se permiten
+# durante las horas programadas.
+#
+# workflow_dispatch siempre se permite manualmente.
+if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' }}
 
-          echo "Hora Madrid: $HORA:$MINUTO"
+runs-on: ubuntu-latest
 
-          if [ "$HORA" -ge 13 ]; then
-            echo "Fuera del horario permitido."
-            echo "No se actualiza."
-            exit 0
-          fi
+permissions:
+  contents: write
 
-      - name: Descargar repositorio
-        uses: actions/checkout@v4
+steps:
 
-      - name: Preparar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+  - name: Descargar repositorio
+    uses: actions/checkout@v6
 
-      - name: Instalar dependencias
-        run: pip install requests openpyxl
+  - name: Preparar Python
+    uses: actions/setup-python@v6
+    with:
+      python-version: "3.x"
 
-      - name: Generar peligro.json
-        run: python generar_peligro.py
+  - name: Instalar dependencias
+    run: |
+      pip install requests openpyxl
 
-      - name: Generar archivos individuales
-        run: python generar_archivos_peligro.py
+  - name: Generar peligro.json
+    run: |
+      python generar_peligro.py
 
-      - name: Guardar cambios
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add peligro.json peligro/
-          git diff --cached --quiet || git commit -m 'Actualizar peligro'
-          git push
+  - name: Generar archivos individuales
+    run: |
+      python generar_archivos_peligro.py
+
+  - name: Guardar cambios
+    run: |
+      git config user.name "github-actions[bot]"
+      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      git add peligro.json peligro/
+
+      git diff --cached --quiet || git commit -m "Actualizar peligro"
+
+      git push
+```
