@@ -664,7 +664,7 @@
     "43030": {
       "municipio": "Bonastre",
       "comarca": "Baix Penedès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "17025": {
@@ -994,7 +994,7 @@
     "08048": {
       "municipio": "Carme",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "23/09/26"
     },
     "43041": {
@@ -1306,7 +1306,7 @@
     "08071": {
       "municipio": "Copons",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "23/09/26"
     },
     "43048": {
@@ -1354,7 +1354,7 @@
     "43050": {
       "municipio": "Creixell",
       "comarca": "Tarragonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "17058": {
@@ -1432,7 +1432,7 @@
     "43043": {
       "municipio": "el Catllar",
       "comarca": "Tarragonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "25076": {
@@ -1480,7 +1480,7 @@
     "43090": {
       "municipio": "el Montmell",
       "comarca": "Baix Penedès",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "23/09/26"
     },
     "43095": {
@@ -1612,7 +1612,7 @@
     "08162": {
       "municipio": "els Hostalets de Pierola",
       "comarca": "Anoia",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "25153": {
@@ -1630,7 +1630,7 @@
     "43100": {
       "municipio": "els Pallaresos",
       "comarca": "Tarragonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "25911": {
@@ -1810,7 +1810,7 @@
     "08085": {
       "municipio": "Font-rubí",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "23/09/26"
     },
     "17069": {
@@ -2422,7 +2422,7 @@
     "43097": {
       "municipio": "la Nou de Gaià",
       "comarca": "Tarragonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "43099": {
@@ -2476,7 +2476,7 @@
     "43111": {
       "municipio": "la Pobla de Montornès",
       "comarca": "Tarragonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "25171": {
@@ -2512,7 +2512,7 @@
     "43126": {
       "municipio": "la Riera de Gaià",
       "comarca": "Tarragonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "08181": {
@@ -2524,7 +2524,7 @@
     "43144": {
       "municipio": "la Secuita",
       "comarca": "Tarragonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "17188": {
@@ -3016,7 +3016,7 @@
     "08122": {
       "municipio": "Mediona",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "23/09/26"
     },
     "25134": {
@@ -3550,7 +3550,7 @@
     "43103": {
       "municipio": "Perafort",
       "comarca": "Tarragonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "17132": {
@@ -4240,7 +4240,7 @@
     "25192": {
       "municipio": "Sant Guim de Freixenet",
       "comarca": "Segarra",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "23/09/26"
     },
     "25197": {
@@ -4414,7 +4414,7 @@
     "08227": {
       "municipio": "Sant Martí Sarroca",
       "comarca": "Alt Penedès",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "23/09/26"
     },
     "08228": {
@@ -4936,7 +4936,7 @@
     "43148": {
       "municipio": "Tarragona",
       "comarca": "Tarragonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "25217": {
@@ -5314,7 +5314,7 @@
     "08297": {
       "municipio": "Veciana",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "23/09/26"
     },
     "17210": {
@@ -5368,7 +5368,7 @@
     "43170": {
       "municipio": "Vila-rodona",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "23/09/26"
     },
     "17230": {
@@ -5638,7 +5638,7 @@
     "08304": {
       "municipio": "Vilobí del Penedès",
       "comarca": "Alt Penedès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "23/09/26"
     },
     "17232": {
