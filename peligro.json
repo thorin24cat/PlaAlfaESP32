@@ -88,7 +88,7 @@
     "43002": {
       "municipio": "Albinyana",
       "comarca": "Baix Penedès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17004": {
@@ -466,7 +466,7 @@
     "08019": {
       "municipio": "Barcelona",
       "comarca": "Barcelonès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17016": {
@@ -622,7 +622,7 @@
     "08023": {
       "municipio": "Bigues i Riells del Fai",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "25055": {
@@ -766,7 +766,7 @@
     "08028": {
       "municipio": "Cabrera d'Anoia",
       "comarca": "Anoia",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08029": {
@@ -820,7 +820,7 @@
     "08033": {
       "municipio": "Caldes de Montbui",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08035": {
@@ -892,7 +892,7 @@
     "08039": {
       "municipio": "Campins",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17038": {
@@ -928,7 +928,7 @@
     "08041": {
       "municipio": "Canovelles",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08042": {
@@ -1168,7 +1168,7 @@
     "08065": {
       "municipio": "Castellví de la Marca",
       "comarca": "Alt Penedès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08066": {
@@ -1204,13 +1204,13 @@
     "08266": {
       "municipio": "Cerdanyola del Vallès",
       "comarca": "Vallès Occidental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08068": {
       "municipio": "Cervelló",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "25072": {
@@ -1498,7 +1498,7 @@
     "08158": {
       "municipio": "el Papiol",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "43104": {
@@ -1516,7 +1516,7 @@
     "43108": {
       "municipio": "el Pla de Santa Maria",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "24/09/26"
     },
     "08164": {
@@ -1774,13 +1774,13 @@
     "08082": {
       "municipio": "Fogars de la Selva",
       "comarca": "Selva",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08081": {
       "municipio": "Fogars de Montclús",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17068": {
@@ -2002,7 +2002,7 @@
     "08096": {
       "municipio": "Granollers",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "25103": {
@@ -2032,7 +2032,7 @@
     "08097": {
       "municipio": "Gualba",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17081": {
@@ -2092,7 +2092,7 @@
     "08102": {
       "municipio": "Igualada",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "24/09/26"
     },
     "25115": {
@@ -2176,7 +2176,7 @@
     "43003": {
       "municipio": "l'Albiol",
       "comarca": "Baix Camp",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "24/09/26"
     },
     "43904": {
@@ -2200,7 +2200,7 @@
     "08005": {
       "municipio": "l'Ametlla del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "43906": {
@@ -2320,7 +2320,7 @@
     "43057": {
       "municipio": "la Febró",
       "comarca": "Baix Camp",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "24/09/26"
     },
     "43058": {
@@ -2452,7 +2452,7 @@
     "08165": {
       "municipio": "la Pobla de Claramunt",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "24/09/26"
     },
     "08166": {
@@ -2566,13 +2566,13 @@
     "25227": {
       "municipio": "la Torre de Cabdella",
       "comarca": "Pallars Jussà",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08286": {
       "municipio": "la Torre de Claramunt",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "24/09/26"
     },
     "43151": {
@@ -2800,13 +2800,13 @@
     "08107": {
       "municipio": "Lliçà d'Amunt",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08108": {
       "municipio": "Lliçà de Vall",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "25128": {
@@ -3058,7 +3058,7 @@
     "08123": {
       "municipio": "Molins de Rei",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "25137": {
@@ -3304,7 +3304,7 @@
     "08143": {
       "municipio": "Òdena",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "24/09/26"
     },
     "17112": {
@@ -3370,7 +3370,7 @@
     "08144": {
       "municipio": "Olvan",
       "comarca": "Berguedà",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17115": {
@@ -3466,7 +3466,7 @@
     "08156": {
       "municipio": "Palau-solità i Plegamans",
       "comarca": "Vallès Occidental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17119": {
@@ -3502,7 +3502,7 @@
     "08159": {
       "municipio": "Parets del Vallès",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17126": {
@@ -3982,7 +3982,7 @@
     "08184": {
       "municipio": "Rubí",
       "comarca": "Vallès Occidental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08185": {
@@ -4000,13 +4000,13 @@
     "08901": {
       "municipio": "Rupit i Pruit",
       "comarca": "Osona",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08187": {
       "municipio": "Sabadell",
       "comarca": "Vallès Occidental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08188": {
@@ -4114,7 +4114,7 @@
     "08200": {
       "municipio": "Sant Boi de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08201": {
@@ -4138,7 +4138,7 @@
     "08204": {
       "municipio": "Sant Climent de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17158": {
@@ -4150,7 +4150,7 @@
     "08205": {
       "municipio": "Sant Cugat del Vallès",
       "comarca": "Vallès Occidental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08206": {
@@ -4168,7 +4168,7 @@
     "08207": {
       "municipio": "Sant Esteve de Palautordera",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08208": {
@@ -4198,13 +4198,13 @@
     "08211": {
       "municipio": "Sant Feliu de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17161": {
       "municipio": "Sant Feliu de Pallerols",
       "comarca": "Garrotxa",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08212": {
@@ -4252,7 +4252,7 @@
     "17164": {
       "municipio": "Sant Hilari Sacalm",
       "comarca": "Selva",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08215": {
@@ -4288,7 +4288,7 @@
     "43137": {
       "municipio": "Sant Jaume dels Domenys",
       "comarca": "Baix Penedès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17167": {
@@ -4354,7 +4354,7 @@
     "08221": {
       "municipio": "Sant Just Desvern",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08222": {
@@ -4396,7 +4396,7 @@
     "17172": {
       "municipio": "Sant Martí de Llémena",
       "comarca": "Gironès",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "25902": {
@@ -4480,7 +4480,7 @@
     "08234": {
       "municipio": "Sant Pere de Vilamajor",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17178": {
@@ -4516,7 +4516,7 @@
     "08238": {
       "municipio": "Sant Quirze del Vallès",
       "comarca": "Vallès Occidental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08239": {
@@ -4570,7 +4570,7 @@
     "08263": {
       "municipio": "Sant Vicenç dels Horts",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "43138": {
@@ -4588,7 +4588,7 @@
     "08244": {
       "municipio": "Santa Coloma de Cervelló",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17180": {
@@ -4630,7 +4630,7 @@
     "08248": {
       "municipio": "Santa Eulàlia de Ronçana",
       "comarca": "Vallès Oriental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08249": {
@@ -4738,7 +4738,7 @@
     "25201": {
       "municipio": "Sarroca de Bellera",
       "comarca": "Pallars Jussà",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "25200": {
@@ -4768,13 +4768,13 @@
     "25202": {
       "municipio": "Senterada",
       "comarca": "Pallars Jussà",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08267": {
       "municipio": "Sentmenat",
       "comarca": "Vallès Occidental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17190": {
@@ -4966,7 +4966,7 @@
     "08280": {
       "municipio": "Tavertet",
       "comarca": "Osona",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08281": {
@@ -4990,7 +4990,7 @@
     "08279": {
       "municipio": "Terrassa",
       "comarca": "Vallès Occidental",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "08282": {
@@ -5110,7 +5110,7 @@
     "08289": {
       "municipio": "Torrelles de Llobregat",
       "comarca": "Baix Llobregat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17197": {
@@ -5350,7 +5350,7 @@
     "17212": {
       "municipio": "Vidrà",
       "comarca": "Osona",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "17213": {
@@ -5572,7 +5572,7 @@
     "08303": {
       "municipio": "Vilanova de Sau",
       "comarca": "Osona",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "24/09/26"
     },
     "25251": {
@@ -5584,7 +5584,7 @@
     "08302": {
       "municipio": "Vilanova del Camí",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "24/09/26"
     },
     "08902": {
@@ -5602,7 +5602,7 @@
     "43169": {
       "municipio": "Vilaplana",
       "comarca": "Baix Camp",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "24/09/26"
     },
     "08214": {
