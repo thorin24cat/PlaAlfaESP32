@@ -256,7 +256,7 @@
     "43014": {
       "municipio": "Amposta",
       "comarca": "Montsià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17008": {
@@ -310,7 +310,7 @@
     "08008": {
       "municipio": "Argençola",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08009": {
@@ -454,7 +454,7 @@
     "43021": {
       "municipio": "Barberà de la Conca",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08252": {
@@ -502,7 +502,7 @@
     "17013": {
       "municipio": "Begur",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25046": {
@@ -526,7 +526,7 @@
     "17018": {
       "municipio": "Bellcaire d'Empordà",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25047": {
@@ -544,13 +544,13 @@
     "43023": {
       "municipio": "Bellmunt del Priorat",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08021": {
       "municipio": "Bellprat",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25050": {
@@ -640,13 +640,13 @@
     "43029": {
       "municipio": "Blancafort",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17023": {
       "municipio": "Blanes",
       "comarca": "Selva",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17029": {
@@ -760,7 +760,7 @@
     "43036": {
       "municipio": "Cabra del Camp",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08028": {
@@ -784,7 +784,7 @@
     "17032": {
       "municipio": "Cadaqués",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08031": {
@@ -826,7 +826,7 @@
     "08035": {
       "municipio": "Calella",
       "comarca": "Maresme",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08037": {
@@ -850,7 +850,7 @@
     "17034": {
       "municipio": "Calonge i Sant Antoni",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25062": {
@@ -862,7 +862,7 @@
     "43903": {
       "municipio": "Camarles",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43038": {
@@ -958,7 +958,7 @@
     "43040": {
       "municipio": "Capçanes",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08044": {
@@ -1018,7 +1018,7 @@
     "17048": {
       "municipio": "Castell d'Aro, Platja d'Aro i s'Agaró",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08057": {
@@ -1036,7 +1036,7 @@
     "25064": {
       "municipio": "Castellar de la Ribera",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08052": {
@@ -1102,7 +1102,7 @@
     "08060": {
       "municipio": "Castellfollit de Riubregós",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08059": {
@@ -1240,7 +1240,7 @@
     "25074": {
       "municipio": "Ciutadilla",
       "comarca": "Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25075": {
@@ -1252,7 +1252,7 @@
     "17054": {
       "municipio": "Colera",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25077": {
@@ -1294,7 +1294,7 @@
     "43046": {
       "municipio": "Conesa",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43047": {
@@ -1348,7 +1348,7 @@
     "43049": {
       "municipio": "Cornudella de Montsant",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43050": {
@@ -1534,7 +1534,7 @@
     "43113": {
       "municipio": "el Pont d'Armentera",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25030": {
@@ -1558,7 +1558,7 @@
     "17140": {
       "municipio": "el Port de la Selva",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08169": {
@@ -1720,7 +1720,7 @@
     "43055": {
       "municipio": "Falset",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25089": {
@@ -1840,13 +1840,13 @@
     "17902": {
       "municipio": "Forallac",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43061": {
       "municipio": "Forès",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17073": {
@@ -1864,7 +1864,7 @@
     "43062": {
       "municipio": "Freginals",
       "comarca": "Montsià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25097": {
@@ -1972,7 +1972,7 @@
     "43068": {
       "municipio": "Godall",
       "comarca": "Montsià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25099": {
@@ -2026,7 +2026,7 @@
     "43069": {
       "municipio": "Gratallops",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08097": {
@@ -2038,7 +2038,7 @@
     "17081": {
       "municipio": "Gualta",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08099": {
@@ -2056,7 +2056,7 @@
     "25109": {
       "municipio": "Guimerà",
       "comarca": "Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25110": {
@@ -2122,7 +2122,7 @@
     "25114": {
       "municipio": "Ivorra",
       "comarca": "Segarra",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17085": {
@@ -2182,7 +2182,7 @@
     "43904": {
       "municipio": "l'Aldea",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43007": {
@@ -2206,7 +2206,7 @@
     "43906": {
       "municipio": "l'Ampolla",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43016": {
@@ -2230,7 +2230,7 @@
     "17062": {
       "municipio": "l'Escala",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25081": {
@@ -2242,7 +2242,7 @@
     "43054": {
       "municipio": "l'Espluga de Francolí",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08078": {
@@ -2344,7 +2344,7 @@
     "43063": {
       "municipio": "la Galera",
       "comarca": "Montsià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08088": {
@@ -2386,7 +2386,7 @@
     "08104": {
       "municipio": "la Llacuna",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08105": {
@@ -2410,7 +2410,7 @@
     "43096": {
       "municipio": "la Morera de Montsant",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08142": {
@@ -2530,7 +2530,7 @@
     "17188": {
       "municipio": "la Selva de Mar",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43145": {
@@ -2542,7 +2542,7 @@
     "43044": {
       "municipio": "la Sénia",
       "comarca": "Montsià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25035": {
@@ -2620,13 +2620,13 @@
     "43173": {
       "municipio": "la Vilella Alta",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43174": {
       "municipio": "la Vilella Baixa",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25121": {
@@ -2692,7 +2692,7 @@
     "43105": {
       "municipio": "les Piles de Gaià",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17133": {
@@ -2740,13 +2740,13 @@
     "25124": {
       "municipio": "Lladurs",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17089": {
       "municipio": "Llagostera",
       "comarca": "Gironès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17090": {
@@ -2764,7 +2764,7 @@
     "17092": {
       "municipio": "Llançà",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25125": {
@@ -2830,13 +2830,13 @@
     "25129": {
       "municipio": "Llobera",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43073": {
       "municipio": "Llorac",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43074": {
@@ -2848,7 +2848,7 @@
     "17095": {
       "municipio": "Lloret de Mar",
       "comarca": "Selva",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08109": {
@@ -2896,7 +2896,7 @@
     "08110": {
       "municipio": "Malgrat de Mar",
       "comarca": "Maresme",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08111": {
@@ -2920,7 +2920,7 @@
     "43076": {
       "municipio": "Marçà",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43075": {
@@ -2950,7 +2950,7 @@
     "43077": {
       "municipio": "Mas de Barberans",
       "comarca": "Montsià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17100": {
@@ -2962,7 +2962,7 @@
     "43078": {
       "municipio": "Masdenverge",
       "comarca": "Montsià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43079": {
@@ -2998,7 +2998,7 @@
     "25132": {
       "municipio": "Massoteres",
       "comarca": "Segarra",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08120": {
@@ -3106,7 +3106,7 @@
     "17110": {
       "municipio": "Mont-ras",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43092": {
@@ -3124,7 +3124,7 @@
     "43086": {
       "municipio": "Montblanc",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43088": {
@@ -3190,7 +3190,7 @@
     "08133": {
       "municipio": "Montmaneu",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08135": {
@@ -3208,7 +3208,7 @@
     "25141": {
       "municipio": "Montoliu de Segarra",
       "comarca": "Segarra",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25143": {
@@ -3256,7 +3256,7 @@
     "25145": {
       "municipio": "Nalec",
       "comarca": "Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25025": {
@@ -3334,7 +3334,7 @@
     "25149": {
       "municipio": "Oliana",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25150": {
@@ -3400,7 +3400,7 @@
     "08152": {
       "municipio": "Orpí",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08153": {
@@ -3436,19 +3436,19 @@
     "08155": {
       "municipio": "Palafolls",
       "comarca": "Maresme",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17117": {
       "municipio": "Palafrugell",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17118": {
       "municipio": "Palamós",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17121": {
@@ -3460,7 +3460,7 @@
     "17120": {
       "municipio": "Palau-saverdera",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08156": {
@@ -3514,7 +3514,7 @@
     "43101": {
       "municipio": "Passanant i Belltall",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17128": {
@@ -3562,7 +3562,7 @@
     "25165": {
       "municipio": "Peramola",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08161": {
@@ -3574,7 +3574,7 @@
     "08163": {
       "municipio": "Pineda de Mar",
       "comarca": "Maresme",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25166": {
@@ -3592,7 +3592,7 @@
     "43107": {
       "municipio": "Pira",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17134": {
@@ -3622,7 +3622,7 @@
     "43141": {
       "municipio": "Pontils",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08168": {
@@ -3652,13 +3652,13 @@
     "43114": {
       "municipio": "Porrera",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17138": {
       "municipio": "Portbou",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43115": {
@@ -3670,7 +3670,7 @@
     "43116": {
       "municipio": "Prades",
       "comarca": "Baix Camp",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43117": {
@@ -3790,7 +3790,7 @@
     "43120": {
       "municipio": "Querol",
       "comarca": "Alt Camp",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17143": {
@@ -3850,7 +3850,7 @@
     "25905": {
       "municipio": "Ribera d'Ondara",
       "comarca": "Segarra",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25185": {
@@ -3940,7 +3940,7 @@
     "43130": {
       "municipio": "Rocafort de Queralt",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43131": {
@@ -3964,13 +3964,13 @@
     "43133": {
       "municipio": "Roquetes",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17152": {
       "municipio": "Roses",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25189": {
@@ -4192,7 +4192,7 @@
     "17160": {
       "municipio": "Sant Feliu de Guíxols",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08211": {
@@ -4408,7 +4408,7 @@
     "08226": {
       "municipio": "Sant Martí de Tous",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08227": {
@@ -4486,7 +4486,7 @@
     "17178": {
       "municipio": "Sant Pere Pescador",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08189": {
@@ -4498,7 +4498,7 @@
     "08235": {
       "municipio": "Sant Pol de Mar",
       "comarca": "Maresme",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08236": {
@@ -4606,13 +4606,13 @@
     "43139": {
       "municipio": "Santa Coloma de Queralt",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17181": {
       "municipio": "Santa Cristina d'Aro",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08246": {
@@ -4648,7 +4648,7 @@
     "08250": {
       "municipio": "Santa Margarida de Montbui",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08251": {
@@ -4684,7 +4684,7 @@
     "08257": {
       "municipio": "Santa Maria de Miralles",
       "comarca": "Anoia",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08259": {
@@ -4714,7 +4714,7 @@
     "08261": {
       "municipio": "Santa Susanna",
       "comarca": "Maresme",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08192": {
@@ -4726,7 +4726,7 @@
     "43142": {
       "municipio": "Sarral",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17186": {
@@ -4756,7 +4756,7 @@
     "43143": {
       "municipio": "Savallà del Comtat",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43146": {
@@ -4840,7 +4840,7 @@
     "43147": {
       "municipio": "Solivella",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25207": {
@@ -4924,7 +4924,7 @@
     "25216": {
       "municipio": "Talavera",
       "comarca": "Segarra",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08278": {
@@ -5032,13 +5032,13 @@
     "25223": {
       "municipio": "Torà",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08284": {
       "municipio": "Tordera",
       "comarca": "Maresme",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08285": {
@@ -5134,13 +5134,13 @@
     "17199": {
       "municipio": "Torroella de Montgrí",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43154": {
       "municipio": "Torroja del Priorat",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "17200": {
@@ -5164,7 +5164,7 @@
     "17202": {
       "municipio": "Tossa de Mar",
       "comarca": "Selva",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25234": {
@@ -5176,7 +5176,7 @@
     "17204": {
       "municipio": "Ullà",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08290": {
@@ -5194,7 +5194,7 @@
     "43156": {
       "municipio": "Ulldecona",
       "comarca": "Montsià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "43157": {
@@ -5224,7 +5224,7 @@
     "17209": {
       "municipio": "Vall-llobrega",
       "comarca": "Baix Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25901": {
@@ -5254,7 +5254,7 @@
     "43158": {
       "municipio": "Vallclara",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25240": {
@@ -5272,7 +5272,7 @@
     "43159": {
       "municipio": "Vallfogona de Riucorb",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08294": {
@@ -5308,7 +5308,7 @@
     "43162": {
       "municipio": "Vandellòs i l'Hospitalet de l'Infant",
       "comarca": "Baix Camp",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08297": {
@@ -5566,7 +5566,7 @@
     "43168": {
       "municipio": "Vilanova de Prades",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "08303": {
@@ -5650,7 +5650,7 @@
     "43176": {
       "municipio": "Vimbodí i Poblet",
       "comarca": "Conca de Barberà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "29/09/26"
     },
     "25255": {
