@@ -22,7 +22,7 @@
     "25003": {
       "municipio": "Agramunt",
       "comarca": "Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "08002": {
@@ -130,7 +130,7 @@
     "43006": {
       "municipio": "Aldover",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "08003": {
@@ -142,7 +142,7 @@
     "43008": {
       "municipio": "Alfara de Carles",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "25013": {
@@ -256,7 +256,7 @@
     "43014": {
       "municipio": "Amposta",
       "comarca": "Montsià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "17008": {
@@ -322,7 +322,7 @@
     "43018": {
       "municipio": "Arnes",
       "comarca": "Terra Alta",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "25031": {
@@ -478,13 +478,13 @@
     "25044": {
       "municipio": "Bassella",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "43022": {
       "municipio": "Batea",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
+      "peligro": "Moderat",
       "fecha": "30/09/26"
     },
     "25045": {
@@ -586,7 +586,7 @@
     "43025": {
       "municipio": "Benifallet",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "43026": {
@@ -628,7 +628,7 @@
     "25055": {
       "municipio": "Biosca",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "17234": {
@@ -736,7 +736,7 @@
     "25060": {
       "municipio": "Cabanabona",
       "comarca": "Noguera",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "17031": {
@@ -754,7 +754,7 @@
     "25061": {
       "municipio": "Cabó",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "43036": {
@@ -862,7 +862,7 @@
     "43903": {
       "municipio": "Camarles",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "43038": {
@@ -1036,7 +1036,7 @@
     "25064": {
       "municipio": "Castellar de la Ribera",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "08052": {
@@ -1744,7 +1744,7 @@
     "25908": {
       "municipio": "Fígols i Alinyà",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "17066": {
@@ -2170,7 +2170,7 @@
     "25009": {
       "municipio": "l'Albi",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "30/09/26"
     },
     "43003": {
@@ -2182,7 +2182,7 @@
     "43904": {
       "municipio": "l'Aldea",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "43007": {
@@ -2470,7 +2470,7 @@
     "43110": {
       "municipio": "la Pobla de Massaluca",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
+      "peligro": "Moderat",
       "fecha": "30/09/26"
     },
     "43111": {
@@ -2482,7 +2482,7 @@
     "25171": {
       "municipio": "la Pobla de Segur",
       "comarca": "Pallars Jussà",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "30/09/26"
     },
     "25174": {
@@ -2644,7 +2644,7 @@
     "25058": {
       "municipio": "les Borges Blanques",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Alt",
       "fecha": "30/09/26"
     },
     "43031": {
@@ -2740,7 +2740,7 @@
     "25124": {
       "municipio": "Lladurs",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "17089": {
@@ -2998,7 +2998,7 @@
     "25132": {
       "municipio": "Massoteres",
       "comarca": "Segarra",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "08120": {
@@ -3298,7 +3298,7 @@
     "25148": {
       "municipio": "Odèn",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "08143": {
@@ -3334,13 +3334,13 @@
     "25149": {
       "municipio": "Oliana",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "25150": {
       "municipio": "Oliola",
       "comarca": "Noguera",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "25151": {
@@ -3382,7 +3382,7 @@
     "25155": {
       "municipio": "Organyà",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "08150": {
@@ -3526,7 +3526,7 @@
     "43102": {
       "municipio": "Paüls",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "17129": {
@@ -3580,7 +3580,7 @@
     "25166": {
       "municipio": "Pinell de Solsonès",
       "comarca": "Solsonès",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "25167": {
@@ -3856,7 +3856,7 @@
     "25185": {
       "municipio": "Ribera d'Urgellet",
       "comarca": "Alt Urgell",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "17145": {
@@ -3964,7 +3964,7 @@
     "43133": {
       "municipio": "Roquetes",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "17152": {
@@ -4018,7 +4018,7 @@
     "25190": {
       "municipio": "Salàs de Pallars",
       "comarca": "Pallars Jussà",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "30/09/26"
     },
     "08190": {
@@ -4060,7 +4060,7 @@
     "25191": {
       "municipio": "Sanaüja",
       "comarca": "Segarra",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "08194": {
@@ -5008,13 +5008,13 @@
     "25222": {
       "municipio": "Tiurana",
       "comarca": "Noguera",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "43149": {
       "municipio": "Tivenys",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "43150": {
@@ -5080,7 +5080,7 @@
     "25907": {
       "municipio": "Torrefeta i Florejacs",
       "comarca": "Segarra",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "25230": {
@@ -5152,7 +5152,7 @@
     "43155": {
       "municipio": "Tortosa",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "17201": {
@@ -5308,7 +5308,7 @@
     "43162": {
       "municipio": "Vandellòs i l'Hospitalet de l'Infant",
       "comarca": "Baix Camp",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "30/09/26"
     },
     "08297": {
@@ -5476,7 +5476,7 @@
     "43175": {
       "municipio": "Vilalba dels Arcs",
       "comarca": "Terra Alta",
-      "peligro": "Alt",
+      "peligro": "Moderat",
       "fecha": "30/09/26"
     },
     "08306": {
@@ -5548,7 +5548,7 @@
     "25249": {
       "municipio": "Vilanova de l'Aguda",
       "comarca": "Noguera",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     },
     "25254": {
@@ -5566,7 +5566,7 @@
     "43168": {
       "municipio": "Vilanova de Prades",
       "comarca": "Conca de Barberà",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "30/09/26"
     },
     "08303": {
@@ -5680,7 +5680,7 @@
     "43052": {
       "municipio": "Xerta",
       "comarca": "Baix Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "30/09/26"
     }
   }
