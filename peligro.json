@@ -148,7 +148,7 @@
     "25013": {
       "municipio": "Alfarràs",
       "comarca": "Segrià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25014": {
@@ -166,7 +166,7 @@
     "25015": {
       "municipio": "Algerri",
       "comarca": "Noguera",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25016": {
@@ -520,7 +520,7 @@
     "25170": {
       "municipio": "Bellaguarda",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "17018": {
@@ -706,7 +706,7 @@
     "25056": {
       "municipio": "Bovera",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "43034": {
@@ -1138,7 +1138,7 @@
     "25069": {
       "municipio": "Castelló de Farfanya",
       "comarca": "Noguera",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "08063": {
@@ -1222,7 +1222,7 @@
     "25073": {
       "municipio": "Cervià de les Garrigues",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "17050": {
@@ -1576,7 +1576,7 @@
     "25206": {
       "municipio": "el Soleràs",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "43163": {
@@ -1588,7 +1588,7 @@
     "25253": {
       "municipio": "el Vilosell",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25004": {
@@ -1648,7 +1648,7 @@
     "25224": {
       "municipio": "els Torms",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25057": {
@@ -2014,7 +2014,7 @@
     "25105": {
       "municipio": "Granyena de les Garrigues",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25104": {
@@ -2116,7 +2116,7 @@
     "25112": {
       "municipio": "Ivars de Noguera",
       "comarca": "Noguera",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25114": {
@@ -2152,25 +2152,25 @@
     "25118": {
       "municipio": "Juncosa",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25119": {
       "municipio": "Juneda",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25006": {
       "municipio": "l'Albagés",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25009": {
       "municipio": "l'Albi",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "43003": {
@@ -2362,13 +2362,13 @@
     "25101": {
       "municipio": "la Granadella",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25102": {
       "municipio": "la Granja d'Escarp",
       "comarca": "Segrià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25903": {
@@ -2446,7 +2446,7 @@
     "25169": {
       "municipio": "la Pobla de Cérvoles",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "08165": {
@@ -2638,13 +2638,13 @@
     "25037": {
       "municipio": "les Avellanes i Santa Linya",
       "comarca": "Noguera",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "25058": {
       "municipio": "les Borges Blanques",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "43031": {
@@ -3412,7 +3412,7 @@
     "25156": {
       "municipio": "Os de Balaguer",
       "comarca": "Noguera",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "07/10/26"
     },
     "17116": {
