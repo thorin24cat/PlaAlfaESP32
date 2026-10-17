@@ -544,7 +544,7 @@
     "43023": {
       "municipio": "Bellmunt del Priorat",
       "comarca": "Priorat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "17/10/26"
     },
     "08021": {
@@ -1720,7 +1720,7 @@
     "43055": {
       "municipio": "Falset",
       "comarca": "Priorat",
-      "peligro": "Baix",
+      "peligro": "Moderat",
       "fecha": "17/10/26"
     },
     "25089": {
