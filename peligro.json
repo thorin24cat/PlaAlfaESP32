@@ -34,7 +34,7 @@
     "17001": {
       "municipio": "Agullana",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "08014": {
@@ -58,7 +58,7 @@
     "25038": {
       "municipio": "Aitona",
       "comarca": "Segrià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "25005": {
@@ -106,7 +106,7 @@
     "25010": {
       "municipio": "Alcanó",
       "comarca": "Segrià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "25011": {
@@ -358,7 +358,7 @@
     "43019": {
       "municipio": "Ascó",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "25036": {
@@ -484,7 +484,7 @@
     "43022": {
       "municipio": "Batea",
       "comarca": "Terra Alta",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "25045": {
@@ -634,7 +634,7 @@
     "17234": {
       "municipio": "Biure",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "43029": {
@@ -784,7 +784,7 @@
     "17032": {
       "municipio": "Cadaqués",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "08031": {
@@ -970,7 +970,7 @@
     "17042": {
       "municipio": "Capmany",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "08045": {
@@ -1078,7 +1078,7 @@
     "25067": {
       "municipio": "Castelldans",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "08056": {
@@ -1222,7 +1222,7 @@
     "25073": {
       "municipio": "Cervià de les Garrigues",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "17050": {
@@ -1390,7 +1390,7 @@
     "17060": {
       "municipio": "Darnius",
       "comarca": "Alt Empordà",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "17061": {
@@ -1438,7 +1438,7 @@
     "25076": {
       "municipio": "el Cogul",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "17005": {
@@ -1576,7 +1576,7 @@
     "25206": {
       "municipio": "el Soleràs",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "43163": {
@@ -1648,7 +1648,7 @@
     "25224": {
       "municipio": "els Torms",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "25057": {
@@ -2014,7 +2014,7 @@
     "25105": {
       "municipio": "Granyena de les Garrigues",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "25104": {
@@ -2152,25 +2152,25 @@
     "25118": {
       "municipio": "Juncosa",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "25119": {
       "municipio": "Juneda",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "25006": {
       "municipio": "l'Albagés",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "25009": {
       "municipio": "l'Albi",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "43003": {
@@ -2428,7 +2428,7 @@
     "43099": {
       "municipio": "la Palma d'Ebre",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "08905": {
@@ -2446,7 +2446,7 @@
     "25169": {
       "municipio": "la Pobla de Cérvoles",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "08165": {
@@ -2584,7 +2584,7 @@
     "43152": {
       "municipio": "la Torre de l'Espanyol",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "17014": {
@@ -2644,7 +2644,7 @@
     "25058": {
       "municipio": "les Borges Blanques",
       "comarca": "Garrigues",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "43031": {
@@ -4744,7 +4744,7 @@
     "25200": {
       "municipio": "Sarroca de Lleida",
       "comarca": "Segrià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "17187": {
@@ -5062,7 +5062,7 @@
     "25226": {
       "municipio": "Torrebesses",
       "comarca": "Segrià",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "43153": {
@@ -5200,7 +5200,7 @@
     "43157": {
       "municipio": "Ulldemolins",
       "comarca": "Priorat",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "17203": {
@@ -5662,7 +5662,7 @@
     "43177": {
       "municipio": "Vinebre",
       "comarca": "Ribera d'Ebre",
-      "peligro": "Moderat",
+      "peligro": "Baix",
       "fecha": "18/10/26"
     },
     "43178": {
